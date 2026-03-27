@@ -1,0 +1,1344 @@
+Gantt Chart
+============================================================
+
+ -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- 
+|  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Usman Khwa  |  FIELD H. P  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Usman Khwa  |  Virat Kohl  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Glen Maxwe  |  Suresh Rai  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Alex Carry  |  R. Jadeja   |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |  FIELD Jasp  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  H. Pandya   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  H. Pandya   |    UMPIRE    |  J. Richard  |    UMPIRE    |  H. Pandya   |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  H. Pandya   |    UMPIRE    |  David Warn  |    UMPIRE    |  H. Pandya   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  H. Pandya   |    UMPIRE    |  J. Richard  |    UMPIRE    |   M. Shami   |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |   M. Shami   |    UMPIRE    |  David Warn  |    UMPIRE    |   M. Shami   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |   M. Shami   |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |   M. Shami   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |   M. Shami   |    UMPIRE    |  J. Richard  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |   B. Kumar   |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |   B. Kumar   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  J. Richard  |    UMPIRE    |   B. Kumar   |    UMPIRE    |  David Warn  |    UMPIRE    |   B. Kumar   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |   B. Kumar   |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |   B. Kumar   |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  David Warn  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  David Warn  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |  FIELD M. S  |    UMPIRE    |  David Warn  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Suresh Rai  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M.S. Dhoni  |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  J. Richard  |    UMPIRE    |  J. Richard  |  R. Jadeja   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  R. Jadeja   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Starc   |    UMPIRE    |  R. Jadeja   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  H. Pandya   |    UMPIRE    |   M. Starc   |    UMPIRE    |  H. Pandya   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Starc   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  H. Pandya   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Starc   |    UMPIRE    |  H. Pandya   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  H. Pandya   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Starc   |    UMPIRE    |  H. Pandya   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |   M. Shami   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Shami   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |   M. Shami   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |   M. Shami   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |   M. Shami   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Shami   |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |   M. Starc   |    UMPIRE    |   M. Starc   |  Jasprit Bu  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Jasprit Bu  |    UMPIRE    |   A. Zampa   |    UMPIRE    |   A. Zampa   |  Jasprit Bu  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  M. Stoinis  |  Jasprit Bu  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  David Warn  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  David Warn  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  David Warn  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  David Warn  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  David Warn  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  David Warn  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Shikhar Dh  |    UMPIRE    |  Shikhar Dh  |   M. Starc   |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   A. Zampa   |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   A. Zampa   |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   A. Zampa   |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   A. Zampa   |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   A. Zampa   |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   A. Zampa   |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   N. Lyon    |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   N. Lyon    |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   N. Lyon    |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   N. Lyon    |    UMPIRE    |  Virat Kohl  |    UMPIRE    |   N. Lyon    |    UMPIRE    |  Virat Kohl  |    UMPIRE    |  Virat Kohl  |   N. Lyon    |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Usman Khwa  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Aeron Finc  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Alex Carry  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Glen Maxwe  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Steve Smit  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  David Warn  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  J. Richard  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  M. Stoinis  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Rohit Shar  |    UMPIRE    |  Rohit Shar  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Yuvraj Sin  |    UMPIRE    |   M. Starc   |    UMPIRE    |  Yuvraj Sin  |
+ -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- -------------- 
+      0          1801          1873          1941          1958          1967          2098        105239        105309        105379        105450        209952        210017        210094        210157        210222        210328        314757        314863        314934        314998        315062        315178        419719        419792        419860        419922        419984        420062        524635        524849        524929        525013        525122        525217       1525256       1525672       1525805       1629263       1629355       1629459       1629535       1733731       1733825       1733940       1734021       1734116       1734243       1838891       1838993       1839127       1839224       1943722       1943809       1943949       1944046       2048783       2048876       2049002       2049093       2049184       2049299       2153317       2153506       2153547       2153656       2153790       2258164       2258259       2258349       2258439       2258528       2258691       2363491       2363582       2363625       2363641       2363653       2363828       2468139       2468239       2468341       2468431       2468597       2468762       2468778       2469093       2573658       2573752       2573843       2573934       2574019       2574256       2678861       2678971       2679064       2679157       2679178       2679292       2784282       2784457       2784523       2784633       2784746       2784899       2889533       2889559       2889588       2889633       2889703       2889901       2994738       2994847       2994938       2995023       2995098       2995146       3099747       3099851       3099959       3100033       3100122       3100320       3204093       3204166       3204233       3204308       3204398       3204548       3204623       3204704       3308273       3308366       3308435       3308513       3308597       3308691       3413065       3413201       3413302       3413379       3516801       3516906       3517014       3517101       3517168       3517293       3621972       3622076       3622209       3622305       3622332       3622467       3727131       3727230       3727337       3727424       3727515       3727739       3831949       3832048       3832170       3832260       3832285       3832407       3937466       3937566       3937670       3937763       3937863       4042958       4043126       4043211       4043296       4043389       4043446       4147934       4148028       4148060       4148080       4252846       4252940       4252979       4253000       4253013       4253237       4357970       4358066       4358156       4358250       4358347       4358408       4463130       4463172       4463205       4463218       4463231       4463375       4567839       4567939       4568065       4568159       4673019       4673189       4673276       4673363       4673457       4673560       4778303       4778395       4778523       4778636       4778757       4778818       4883537       4883587       4883709       4883792       4883873       4988984       4989082       4989198       4989292       4989313       4989432       5094050       5094142       5094250       5094333       5094420       5094595       6094536       6095011       6095185       6200038       6200135       6200260       6200350       6200450       6200551       6305546       6305720       6305829       6305910       6306004       6306086       6410261       6410355       6410450       6410537       6410630       6410709       6514877       6514977       6515080       6515161       6619934       6620049       6620199       6620282       6620364       6620458       6724797       6724885       6724978       6725062       6829485       6829592       6829706       6829803       6829885       6829982       6935036       6935218       6935326       6935407       7040182       7040257       7040359       7040428       7040492       7040587       7144319       7144400       7144436       7144540       7248462       7248563       7248667       7248803       7248926       7249000       7353902       7353986       7354071       7354169       7354272       7354324       7458949       7459048       7459167       7459258       7459356       7459450       7563633       7563808       7563891       7563981       7668220       7668240       7668323       7668336       7668347       7668413       7772258       7772338       7772418       7772500       7772583       7772692       7877136       7877228       7877319       7877410       7877487       7877715       7981958       7982031       7982098       7982163       7982223       7982382       8086376       8086399       8086488       8086506       8086537       8086745       8191171       8191363       8191434       8191501       8191615       8191743       8295651       8295727       8295828       8295912       8296008       8296182       8399859       8399957       8400064       8400153       8400267       8400419       8400554       8400726       8505045       8505146       8505255       8505285       8610217       8610306       8610387       8610476       8610586       8610650       8715682       8715768       8715849       8715930       8716005       8716196       8820595       8820835       8820920       8821007       8821086       8821257       8926024       8926133       8926230       8926320       8926341       8926574       9030867       9030945       9031053       9031144       9031234       9031406       9135989       9136080       9136188       9136265       9136359       9136555       9240772       9240861       9240962       9241047       9241128       9241328       9345892       9345986       9346093       9346180       9346283       9346413       9451068       9451293       9451400       9451485       9451562       9451750       9555876       9555976       9556082       9556167       9556261       9556384       9661538       9661568       9661660       9661759       9766837       9766928       9767038       9767129       9767208       9767304       9871548       9871641       9871750       9871844       9871928       9872007       9976219       9976312       9976426       9976513      10081330      10081416      10081502      10081521      10185903      10185991      10186091      10186107      10186126      10186257      10290503      10290621      10290727      10290808      10290898      10290975      10395764      10395871      10395961      10396051      10500940      10501037      10501168      10501257      10605953      10606014      10606072      10606133      10606192      10606254      10709510      10709693      10709740      10709833      10814125      10814211      10814279      10814391      10919145      10919232      10919344      10919427      10919441      10919590      11919637      11920061      11920208      12024266      12024296      12024396      12024416      12024432      12024517      12129661      12129762      12129867      12129953      12130026      12130095      12235168      12235203      12235342      12235436      12339819      12340017      12340090      12340159      12340234      12340276      12444709      12444747      12444845      12444976      12445061      12445146      12549755      12549856      12549968      12550057      12550146      12550223      12654422      12654532      12654644      12654767      12654852      12654975      12759834      12759902      12760002      12760122      12760211      12760338      12864781      12864841      12864945      12865095      12865139      12865377      12970509      12970687      12970787      12970874      12970963      12971062      13075821      13075908      13075983      13076063      13180833      13180935      13180973      13180992      13181007      13181204      13285541      13285651      13285765      13285856      13285957      13390824      13390910      13390935      13390949      13390960      13391141      13494697      13494786      13494877      13494964      13495058      13495193      13599361      13599433      13599520      13599535      13599548      13599684      13703240      13703334      13703447      13703466      13807948      13808024      13808122      13808234      13808361      13808586      13808662      13808741      13912758      13912833      13912942      13913074      13913175      13913382      14018412      14018482      14018587      14018725      14018836      14018982      14124166      14124264      14124358      14124457      14124541      14124658      14229878      14230072      14230176      14230257      14230274      14230390      14335644      14335727      14335765      14335857      14335938      14336031      14440861      14441519      14441638      14441703      14545030      14545158      14545275      14545364      14650406      14650505      14650628      14650720      14650818      14650902      14755762      14755865      14755971      14756080      14756167      14756263      14861651      14861820      14861892      14861979      14862069      14862162      14967012      14967108      14967198      14967287      15071844      15071946      15072030      15072118      15072212      15177162      15177242      15177330      15177412      15177483      15177530      15281831      15281913      15282016      15282109      15282169      15386418      15386506      15386618      15386709      15386801      15490954      15490985      15492937      15493020      15493078      15493092      15493104      15493174      15596803      15596890      15596974      15597067      15597133      15597181      15701724      15701831      15701864      15701883      15806651      15806733      15806764      15806789      15806803      15806976      15910960      15911032      15911118      15911193      15911258      15911300      16014909      16015132      16015169      16015185      16015196      16015378      16119771      16119868      16119967      16120051      16223742      16223823      16223910      16223987      16224039      16224077      16328367      16328465      16328502      16328520      16328536      16328797      16433904      16433993      16434085      16434148      16434242      16434275      16537879      16537978      16538083      16538172      16642906      16643075      16643181      16643273      16643380      16643463      16747989      16748017      16748106      16748131      16748144      16748245      16853296      16853365      16853467      16853586      16853703      16853849      16958421      16958444      16958537      16958559      16958576      16958803      17063903      17063971      17064066      17064131      17064213      17064347      17169435      17169508      17169629      17169713      17274493      17274585      17274682      17274801      17380155      17380255      17380374      17380468      17380561      17380752      17485400      17485499      17485628      17485709      17485817      17485890      17590178      17590274      17590401      17590487      17695208      17695291      17695394      17695466      17799765      17799846      17799948      17800038      17904626      17904777      17904867      17904945      17905034      17905111      18009586      18009685      18009731      18009824      18009849      18009964      18114493      18114584      18114687      18114780      18114861      18115081      18219568      18219664      18219758      18219846      18324270      18324350      18324458      18324530      18324655      18324720      18429332      18429418      18429518      18429627      18429745      18429850      18533933      18534096      18534124      18534139      18637632      18637723      18637758      18637776      18741988      18742096      18742131      18742144      18742158      18742288      18846845      18846921      18846988      18847067      18847133      18847181      18950900      18950982      18951065      18951138      18951222      18951284      19055785      19055856      19055943      19056012      19056105      19056201      19160483      19160595      19160721      19160794      19160880      19160981      19265354      19265419      19265521      19265590      19265620      19265843      19370299      19370324      19370418      19370439      19370450      19370515      19475596      19475702      19475779      19475855      19475927      19476048      19580505      19580617      19580717      19580808      19580913      19580985      19685297      19685396      19685493      19685582      19685598      19685752      19790208      19790394      19790501      19790597      19790745      19790804      19895214      19895303      19895399      19895509      19895525      19895683      20000245      20000339      20000438      20000457      20105125      20105218      20105334      20105425      20105442      20105564      20210564      20210664      20210768      20210862      20210953      20211060      20316148      20316247      20316361      20316412      20316429      20316559      20421699      20421873      20421976      20422063      20422169      20527204      20527318      20527414      20527502      20632111      20632209      20632332      20632380      20632507      20632566      20737579      20737656      20737734      20737823      20841662      20841760      20841871      20841962      20946598      20946699      20946795      20946886      20946981      20947043      21051798      21051968      21052083      21052174      21052268      21052326      21157190      21157285      21157373      21157459      21157476      21157556      21262955      21263036      21263127      21263220      21263293      21263339      21367204      21367255      21367358      21367453      21367470      21367536      21472042      21472146      21472237      21472355      21472476      21472643      21472663      21472776      21577060      21577154      21577258      21577353      21577371      21577547      21682059      21682246      21682376      21682462      21682479      21682643      21786940      21787028      21787138      21787223      21787310      21787505      21892066      21892161      21892241      21892319      21892389      21892445      21997296      21997398      21997514      21997632      21997728      21997923      22102641      22102745      22102993      22103083      22207547      22207652      22207770      22207867      22207986      22312981      22313147      22313244      22313359      22313500      22313748      22313821      22313864      22418515      22418533      22418637      22418720      22418810      22419011      22523637      22523663      22523781      22523872      22524010      22524261      22524347      22524447      22628694      22628715      22628834      22628925      22733884      22733977      22734110      22734205      22838798      22838821      22838898      22839001      22839157      22839318      22943671      22943862      22943955      22944030      22944107      22944227      23049001      23049090      23049212      23049304      23049395      23049465      23153906      23153998      23154098      23154236      23154273      23154407      23258961      23259046      23259172      23259192      23259209      23259335      23363908      23363929      23364016      23364030      23467898      23467922      23468020      23468058      23468068      23468206      23572679      23572896      23572971      23573067      23573218      23573281      23678163      23678261      23678361      23678455      23678475      23678659      23783715      23783805      23783906      23784003      23784136      23784320      23888628      23888729      23888839      23888936      23889077      23889252      23993756      23993846      23993949      23994027      23994160      23994328      23994342      23994444      24099033      24099134      24099249      24099345      24204154      24204334      24204400      24204485      24204506      24204670      24309931      24310028      24310138      24310229      24310250      24310381      24414880      24414985      24415101      24415194      24415271      24415369      24520031      24520122      24520242      24520325      24520398      24520493      24624668      24624757      24624869      24624953      24625087      24625251      24729292      24729380      24729482      24729565      24729690      24729791      24833865      24834061      24834188      24834276      24834341      24834436      24938741      24938774      24938870      24938893      24938909      24939049      25043375      25043472      25043582      25043620      25043642      25043834      25147967      25148062      25148181      25148271      25148391      25148511      25253673      25253768      25253890      25253978      25254110      25254270      25358968      25359067      25359179      25359279      25359407      25359638      25464767      25464961      25465054      25465143      25465227      25465354      25569689      25569775      25569859      25569948      25570029      25570134      25674677      25674779      25674865      25674953      25779777      25779866      25779988      25780081      25780220      25780315      25885024      25885074      25885210      25885237      25885250      25885394      25990057      25990149      25990313      25990406      26095061      26095312      26095383      26095475      26200381      26200479      26200597      26200744      26200853      26200998      26305871      26305971      26306083      26306126      26306262      26306341      26411173      26411271      26411393      26411414      26411432      26411551      26516557      26516630      26516725      26516812      26621490      26621557      26621665      26621793      26726791      26726939      26727056      26727157      26831322      26831417      26831499      26831594      26831734      26831813      26936635      26936719      26936829      26936906      26936988      26937044      27041022      27041115      27041221      27041309      27041400      27041552      27145969      27146010      27146100      27146186      27146297      27146425      27250448      27250474      27250502      27250517      27250554      27250761      27355277      27355439      27355541      27355559      27459986      27460066      27460139      27460194      27460250      27460322      27563665      27563884      27563959      27564019      27564107      27564174      27668579      27668664      27668762      27668856      27773083      27773172      27773263      27773353      27877844      27877874      27877896
+
+Details:
+Process     Start       End         Dur         
+--------------------------------------------------
+Rohit Shar  0           1801        1801        
+UMPIRE      1801        1873        72          
+Usman Khwa  1873        1941        68          
+UMPIRE      1941        1958        17          
+Usman Khwa  1958        1967        9           
+UMPIRE      1967        2098        131         
+Rohit Shar  2098        105239      103141      
+UMPIRE      105239      105309      70          
+Aeron Finc  105309      105379      70          
+UMPIRE      105379      105450      71          
+Rohit Shar  105450      209952      104502      
+UMPIRE      209952      210017      65          
+Aeron Finc  210017      210094      77          
+UMPIRE      210094      210157      63          
+Aeron Finc  210157      210222      65          
+UMPIRE      210222      210328      106         
+Rohit Shar  210328      314757      104429      
+UMPIRE      314757      314863      106         
+Usman Khwa  314863      314934      71          
+UMPIRE      314934      314998      64          
+Usman Khwa  314998      315062      64          
+UMPIRE      315062      315178      116         
+Rohit Shar  315178      419719      104541      
+UMPIRE      419719      419792      73          
+Aeron Finc  419792      419860      68          
+UMPIRE      419860      419922      62          
+Aeron Finc  419922      419984      62          
+UMPIRE      419984      420062      78          
+Rohit Shar  420062      524635      104573      
+UMPIRE      524635      524849      214         
+Usman Khwa  524849      524929      80          
+UMPIRE      524929      525013      84          
+Usman Khwa  525013      525122      109         
+FIELD H. P  525122      525217      95          
+UMPIRE      525217      1525256     1000039     
+Aeron Finc  1525256     1525672     416         
+UMPIRE      1525672     1525805     133         
+Shikhar Dh  1525805     1629263     103458      
+UMPIRE      1629263     1629355     92          
+Usman Khwa  1629355     1629459     104         
+UMPIRE      1629459     1629535     76          
+Shikhar Dh  1629535     1733731     104196      
+UMPIRE      1733731     1733825     94          
+Usman Khwa  1733825     1733940     115         
+UMPIRE      1733940     1734021     81          
+Usman Khwa  1734021     1734116     95          
+UMPIRE      1734116     1734243     127         
+Shikhar Dh  1734243     1838891     104648      
+UMPIRE      1838891     1838993     102         
+Alex Carry  1838993     1839127     134         
+UMPIRE      1839127     1839224     97          
+Shikhar Dh  1839224     1943722     104498      
+UMPIRE      1943722     1943809     87          
+Alex Carry  1943809     1943949     140         
+UMPIRE      1943949     1944046     97          
+Shikhar Dh  1944046     2048783     104737      
+UMPIRE      2048783     2048876     93          
+Alex Carry  2048876     2049002     126         
+UMPIRE      2049002     2049093     91          
+Alex Carry  2049093     2049184     91          
+UMPIRE      2049184     2049299     115         
+Shikhar Dh  2049299     2153317     104018      
+UMPIRE      2153317     2153506     189         
+Usman Khwa  2153506     2153547     41          
+UMPIRE      2153547     2153656     109         
+Usman Khwa  2153656     2153790     134         
+Virat Kohl  2153790     2258164     104374      
+UMPIRE      2258164     2258259     95          
+Alex Carry  2258259     2258349     90          
+UMPIRE      2258349     2258439     90          
+Alex Carry  2258439     2258528     89          
+UMPIRE      2258528     2258691     163         
+Virat Kohl  2258691     2363491     104800      
+UMPIRE      2363491     2363582     91          
+Glen Maxwe  2363582     2363625     43          
+UMPIRE      2363625     2363641     16          
+Glen Maxwe  2363641     2363653     12          
+UMPIRE      2363653     2363828     175         
+Virat Kohl  2363828     2468139     104311      
+UMPIRE      2468139     2468239     100         
+Alex Carry  2468239     2468341     102         
+UMPIRE      2468341     2468431     90          
+Alex Carry  2468431     2468597     166         
+UMPIRE      2468597     2468762     165         
+Glen Maxwe  2468762     2468778     16          
+UMPIRE      2468778     2469093     315         
+Virat Kohl  2469093     2573658     104565      
+UMPIRE      2573658     2573752     94          
+Alex Carry  2573752     2573843     91          
+UMPIRE      2573843     2573934     91          
+Alex Carry  2573934     2574019     85          
+UMPIRE      2574019     2574256     237         
+Virat Kohl  2574256     2678861     104605      
+UMPIRE      2678861     2678971     110         
+Glen Maxwe  2678971     2679064     93          
+UMPIRE      2679064     2679157     93          
+Glen Maxwe  2679157     2679178     21          
+UMPIRE      2679178     2679292     114         
+Virat Kohl  2679292     2784282     104990      
+UMPIRE      2784282     2784457     175         
+Alex Carry  2784457     2784523     66          
+UMPIRE      2784523     2784633     110         
+Alex Carry  2784633     2784746     113         
+UMPIRE      2784746     2784899     153         
+Yuvraj Sin  2784899     2889533     104634      
+UMPIRE      2889533     2889559     26          
+Glen Maxwe  2889559     2889588     29          
+UMPIRE      2889588     2889633     45          
+Glen Maxwe  2889633     2889703     70          
+UMPIRE      2889703     2889901     198         
+Yuvraj Sin  2889901     2994738     104837      
+UMPIRE      2994738     2994847     109         
+Alex Carry  2994847     2994938     91          
+UMPIRE      2994938     2995023     85          
+Alex Carry  2995023     2995098     75          
+UMPIRE      2995098     2995146     48          
+Yuvraj Sin  2995146     3099747     104601      
+UMPIRE      3099747     3099851     104         
+Glen Maxwe  3099851     3099959     108         
+UMPIRE      3099959     3100033     74          
+Glen Maxwe  3100033     3100122     89          
+UMPIRE      3100122     3100320     198         
+Yuvraj Sin  3100320     3204093     103773      
+UMPIRE      3204093     3204166     73          
+Alex Carry  3204166     3204233     67          
+UMPIRE      3204233     3204308     75          
+Alex Carry  3204308     3204398     90          
+UMPIRE      3204398     3204548     150         
+Glen Maxwe  3204548     3204623     75          
+UMPIRE      3204623     3204704     81          
+Yuvraj Sin  3204704     3308273     103569      
+UMPIRE      3308273     3308366     93          
+Alex Carry  3308366     3308435     69          
+UMPIRE      3308435     3308513     78          
+Alex Carry  3308513     3308597     84          
+UMPIRE      3308597     3308691     94          
+Yuvraj Sin  3308691     3413065     104374      
+UMPIRE      3413065     3413201     136         
+Glen Maxwe  3413201     3413302     101         
+UMPIRE      3413302     3413379     77          
+Suresh Rai  3413379     3516801     103422      
+UMPIRE      3516801     3516906     105         
+Glen Maxwe  3516906     3517014     108         
+UMPIRE      3517014     3517101     87          
+Glen Maxwe  3517101     3517168     67          
+UMPIRE      3517168     3517293     125         
+Suresh Rai  3517293     3621972     104679      
+UMPIRE      3621972     3622076     104         
+Alex Carry  3622076     3622209     133         
+UMPIRE      3622209     3622305     96          
+Alex Carry  3622305     3622332     27          
+UMPIRE      3622332     3622467     135         
+Suresh Rai  3622467     3727131     104664      
+UMPIRE      3727131     3727230     99          
+Glen Maxwe  3727230     3727337     107         
+UMPIRE      3727337     3727424     87          
+Glen Maxwe  3727424     3727515     91          
+UMPIRE      3727515     3727739     224         
+Suresh Rai  3727739     3831949     104210      
+UMPIRE      3831949     3832048     99          
+Alex Carry  3832048     3832170     122         
+UMPIRE      3832170     3832260     90          
+Alex Carry  3832260     3832285     25          
+UMPIRE      3832285     3832407     122         
+Suresh Rai  3832407     3937466     105059      
+UMPIRE      3937466     3937566     100         
+Glen Maxwe  3937566     3937670     104         
+UMPIRE      3937670     3937763     93          
+Glen Maxwe  3937763     3937863     100         
+Suresh Rai  3937863     4042958     105095      
+UMPIRE      4042958     4043126     168         
+Alex Carry  4043126     4043211     85          
+UMPIRE      4043211     4043296     85          
+Alex Carry  4043296     4043389     93          
+UMPIRE      4043389     4043446     57          
+M.S. Dhoni  4043446     4147934     104488      
+UMPIRE      4147934     4148028     94          
+Steve Smit  4148028     4148060     32          
+UMPIRE      4148060     4148080     20          
+M.S. Dhoni  4148080     4252846     104766      
+UMPIRE      4252846     4252940     94          
+Steve Smit  4252940     4252979     39          
+UMPIRE      4252979     4253000     21          
+Steve Smit  4253000     4253013     13          
+UMPIRE      4253013     4253237     224         
+M.S. Dhoni  4253237     4357970     104733      
+UMPIRE      4357970     4358066     96          
+Alex Carry  4358066     4358156     90          
+UMPIRE      4358156     4358250     94          
+Alex Carry  4358250     4358347     97          
+UMPIRE      4358347     4358408     61          
+M.S. Dhoni  4358408     4463130     104722      
+UMPIRE      4463130     4463172     42          
+Steve Smit  4463172     4463205     33          
+UMPIRE      4463205     4463218     13          
+Steve Smit  4463218     4463231     13          
+UMPIRE      4463231     4463375     144         
+M.S. Dhoni  4463375     4567839     104464      
+UMPIRE      4567839     4567939     100         
+Alex Carry  4567939     4568065     126         
+UMPIRE      4568065     4568159     94          
+M.S. Dhoni  4568159     4673019     104860      
+UMPIRE      4673019     4673189     170         
+Alex Carry  4673189     4673276     87          
+UMPIRE      4673276     4673363     87          
+Alex Carry  4673363     4673457     94          
+UMPIRE      4673457     4673560     103         
+R. Jadeja   4673560     4778303     104743      
+UMPIRE      4778303     4778395     92          
+Steve Smit  4778395     4778523     128         
+UMPIRE      4778523     4778636     113         
+Steve Smit  4778636     4778757     121         
+UMPIRE      4778757     4778818     61          
+R. Jadeja   4778818     4883537     104719      
+UMPIRE      4883537     4883587     50          
+Alex Carry  4883587     4883709     122         
+UMPIRE      4883709     4883792     83          
+Alex Carry  4883792     4883873     81          
+R. Jadeja   4883873     4988984     105111      
+UMPIRE      4988984     4989082     98          
+Steve Smit  4989082     4989198     116         
+UMPIRE      4989198     4989292     94          
+Steve Smit  4989292     4989313     21          
+UMPIRE      4989313     4989432     119         
+R. Jadeja   4989432     5094050     104618      
+UMPIRE      5094050     5094142     92          
+David Warn  5094142     5094250     108         
+UMPIRE      5094250     5094333     83          
+David Warn  5094333     5094420     87          
+FIELD Jasp  5094420     5094595     175         
+UMPIRE      5094595     6094536     999941      
+Steve Smit  6094536     6095011     475         
+UMPIRE      6095011     6095185     174         
+R. Jadeja   6095185     6200038     104853      
+UMPIRE      6200038     6200135     97          
+David Warn  6200135     6200260     125         
+UMPIRE      6200260     6200350     90          
+David Warn  6200350     6200450     100         
+UMPIRE      6200450     6200551     101         
+R. Jadeja   6200551     6305546     104995      
+UMPIRE      6305546     6305720     174         
+J. Richard  6305720     6305829     109         
+UMPIRE      6305829     6305910     81          
+J. Richard  6305910     6306004     94          
+UMPIRE      6306004     6306086     82          
+H. Pandya   6306086     6410261     104175      
+UMPIRE      6410261     6410355     94          
+David Warn  6410355     6410450     95          
+UMPIRE      6410450     6410537     87          
+David Warn  6410537     6410630     93          
+UMPIRE      6410630     6410709     79          
+H. Pandya   6410709     6514877     104168      
+UMPIRE      6514877     6514977     100         
+J. Richard  6514977     6515080     103         
+UMPIRE      6515080     6515161     81          
+H. Pandya   6515161     6619934     104773      
+UMPIRE      6619934     6620049     115         
+J. Richard  6620049     6620199     150         
+UMPIRE      6620199     6620282     83          
+J. Richard  6620282     6620364     82          
+UMPIRE      6620364     6620458     94          
+H. Pandya   6620458     6724797     104339      
+UMPIRE      6724797     6724885     88          
+David Warn  6724885     6724978     93          
+UMPIRE      6724978     6725062     84          
+H. Pandya   6725062     6829485     104423      
+UMPIRE      6829485     6829592     107         
+David Warn  6829592     6829706     114         
+UMPIRE      6829706     6829803     97          
+David Warn  6829803     6829885     82          
+UMPIRE      6829885     6829982     97          
+H. Pandya   6829982     6935036     105054      
+UMPIRE      6935036     6935218     182         
+J. Richard  6935218     6935326     108         
+UMPIRE      6935326     6935407     81          
+M. Shami    6935407     7040182     104775      
+UMPIRE      7040182     7040257     75          
+J. Richard  7040257     7040359     102         
+UMPIRE      7040359     7040428     69          
+J. Richard  7040428     7040492     64          
+UMPIRE      7040492     7040587     95          
+M. Shami    7040587     7144319     103732      
+UMPIRE      7144319     7144400     81          
+David Warn  7144400     7144436     36          
+UMPIRE      7144436     7144540     104         
+M. Shami    7144540     7248462     103922      
+UMPIRE      7248462     7248563     101         
+David Warn  7248563     7248667     104         
+UMPIRE      7248667     7248803     136         
+David Warn  7248803     7248926     123         
+UMPIRE      7248926     7249000     74          
+M. Shami    7249000     7353902     104902      
+UMPIRE      7353902     7353986     84          
+J. Richard  7353986     7354071     85          
+UMPIRE      7354071     7354169     98          
+J. Richard  7354169     7354272     103         
+UMPIRE      7354272     7354324     52          
+M. Shami    7354324     7458949     104625      
+UMPIRE      7458949     7459048     99          
+David Warn  7459048     7459167     119         
+UMPIRE      7459167     7459258     91          
+David Warn  7459258     7459356     98          
+UMPIRE      7459356     7459450     94          
+M. Shami    7459450     7563633     104183      
+UMPIRE      7563633     7563808     175         
+J. Richard  7563808     7563891     83          
+UMPIRE      7563891     7563981     90          
+Jasprit Bu  7563981     7668220     104239      
+UMPIRE      7668220     7668240     20          
+J. Richard  7668240     7668323     83          
+UMPIRE      7668323     7668336     13          
+J. Richard  7668336     7668347     11          
+UMPIRE      7668347     7668413     66          
+Jasprit Bu  7668413     7772258     103845      
+UMPIRE      7772258     7772338     80          
+David Warn  7772338     7772418     80          
+UMPIRE      7772418     7772500     82          
+David Warn  7772500     7772583     83          
+UMPIRE      7772583     7772692     109         
+Jasprit Bu  7772692     7877136     104444      
+UMPIRE      7877136     7877228     92          
+J. Richard  7877228     7877319     91          
+UMPIRE      7877319     7877410     91          
+J. Richard  7877410     7877487     77          
+UMPIRE      7877487     7877715     228         
+Jasprit Bu  7877715     7981958     104243      
+UMPIRE      7981958     7982031     73          
+David Warn  7982031     7982098     67          
+UMPIRE      7982098     7982163     65          
+David Warn  7982163     7982223     60          
+UMPIRE      7982223     7982382     159         
+Jasprit Bu  7982382     8086376     103994      
+UMPIRE      8086376     8086399     23          
+J. Richard  8086399     8086488     89          
+UMPIRE      8086488     8086506     18          
+J. Richard  8086506     8086537     31          
+UMPIRE      8086537     8086745     208         
+Jasprit Bu  8086745     8191171     104426      
+UMPIRE      8191171     8191363     192         
+David Warn  8191363     8191434     71          
+UMPIRE      8191434     8191501     67          
+David Warn  8191501     8191615     114         
+UMPIRE      8191615     8191743     128         
+B. Kumar    8191743     8295651     103908      
+UMPIRE      8295651     8295727     76          
+J. Richard  8295727     8295828     101         
+UMPIRE      8295828     8295912     84          
+J. Richard  8295912     8296008     96          
+UMPIRE      8296008     8296182     174         
+B. Kumar    8296182     8399859     103677      
+UMPIRE      8399859     8399957     98          
+David Warn  8399957     8400064     107         
+UMPIRE      8400064     8400153     89          
+David Warn  8400153     8400267     114         
+UMPIRE      8400267     8400419     152         
+J. Richard  8400419     8400554     135         
+UMPIRE      8400554     8400726     172         
+B. Kumar    8400726     8505045     104319      
+UMPIRE      8505045     8505146     101         
+David Warn  8505146     8505255     109         
+UMPIRE      8505255     8505285     30          
+B. Kumar    8505285     8610217     104932      
+UMPIRE      8610217     8610306     89          
+David Warn  8610306     8610387     81          
+UMPIRE      8610387     8610476     89          
+David Warn  8610476     8610586     110         
+UMPIRE      8610586     8610650     64          
+B. Kumar    8610650     8715682     105032      
+UMPIRE      8715682     8715768     86          
+J. Richard  8715768     8715849     81          
+UMPIRE      8715849     8715930     81          
+J. Richard  8715930     8716005     75          
+UMPIRE      8716005     8716196     191         
+B. Kumar    8716196     8820595     104399      
+UMPIRE      8820595     8820835     240         
+David Warn  8820835     8820920     85          
+UMPIRE      8820920     8821007     87          
+David Warn  8821007     8821086     79          
+UMPIRE      8821086     8821257     171         
+Shikhar Dh  8821257     8926024     104767      
+UMPIRE      8926024     8926133     109         
+J. Richard  8926133     8926230     97          
+UMPIRE      8926230     8926320     90          
+J. Richard  8926320     8926341     21          
+UMPIRE      8926341     8926574     233         
+Shikhar Dh  8926574     9030867     104293      
+UMPIRE      9030867     9030945     78          
+David Warn  9030945     9031053     108         
+UMPIRE      9031053     9031144     91          
+David Warn  9031144     9031234     90          
+UMPIRE      9031234     9031406     172         
+Shikhar Dh  9031406     9135989     104583      
+UMPIRE      9135989     9136080     91          
+J. Richard  9136080     9136188     108         
+UMPIRE      9136188     9136265     77          
+J. Richard  9136265     9136359     94          
+UMPIRE      9136359     9136555     196         
+Shikhar Dh  9136555     9240772     104217      
+UMPIRE      9240772     9240861     89          
+David Warn  9240861     9240962     101         
+UMPIRE      9240962     9241047     85          
+David Warn  9241047     9241128     81          
+UMPIRE      9241128     9241328     200         
+Shikhar Dh  9241328     9345892     104564      
+UMPIRE      9345892     9345986     94          
+J. Richard  9345986     9346093     107         
+UMPIRE      9346093     9346180     87          
+J. Richard  9346180     9346283     103         
+UMPIRE      9346283     9346413     130         
+Shikhar Dh  9346413     9451068     104655      
+UMPIRE      9451068     9451293     225         
+David Warn  9451293     9451400     107         
+UMPIRE      9451400     9451485     85          
+David Warn  9451485     9451562     77          
+UMPIRE      9451562     9451750     188         
+Virat Kohl  9451750     9555876     104126      
+UMPIRE      9555876     9555976     100         
+J. Richard  9555976     9556082     106         
+UMPIRE      9556082     9556167     85          
+J. Richard  9556167     9556261     94          
+UMPIRE      9556261     9556384     123         
+Virat Kohl  9556384     9661538     105154      
+UMPIRE      9661538     9661568     30          
+David Warn  9661568     9661660     92          
+UMPIRE      9661660     9661759     99          
+Virat Kohl  9661759     9766837     105078      
+UMPIRE      9766837     9766928     91          
+David Warn  9766928     9767038     110         
+UMPIRE      9767038     9767129     91          
+David Warn  9767129     9767208     79          
+UMPIRE      9767208     9767304     96          
+Virat Kohl  9767304     9871548     104244      
+UMPIRE      9871548     9871641     93          
+J. Richard  9871641     9871750     109         
+UMPIRE      9871750     9871844     94          
+J. Richard  9871844     9871928     84          
+UMPIRE      9871928     9872007     79          
+Virat Kohl  9872007     9976219     104212      
+UMPIRE      9976219     9976312     93          
+David Warn  9976312     9976426     114         
+UMPIRE      9976426     9976513     87          
+Virat Kohl  9976513     10081330    104817      
+UMPIRE      10081330    10081416    86          
+David Warn  10081416    10081502    86          
+UMPIRE      10081502    10081521    19          
+Yuvraj Sin  10081521    10185903    104382      
+UMPIRE      10185903    10185991    88          
+David Warn  10185991    10186091    100         
+UMPIRE      10186091    10186107    16          
+David Warn  10186107    10186126    19          
+UMPIRE      10186126    10186257    131         
+Yuvraj Sin  10186257    10290503    104246      
+UMPIRE      10290503    10290621    118         
+J. Richard  10290621    10290727    106         
+UMPIRE      10290727    10290808    81          
+J. Richard  10290808    10290898    90          
+UMPIRE      10290898    10290975    77          
+Yuvraj Sin  10290975    10395764    104789      
+UMPIRE      10395764    10395871    107         
+David Warn  10395871    10395961    90          
+UMPIRE      10395961    10396051    90          
+Yuvraj Sin  10396051    10500940    104889      
+UMPIRE      10500940    10501037    97          
+David Warn  10501037    10501168    131         
+UMPIRE      10501168    10501257    89          
+Yuvraj Sin  10501257    10605953    104696      
+UMPIRE      10605953    10606014    61          
+David Warn  10606014    10606072    58          
+UMPIRE      10606072    10606133    61          
+David Warn  10606133    10606192    59          
+UMPIRE      10606192    10606254    62          
+Yuvraj Sin  10606254    10709510    103256      
+UMPIRE      10709510    10709693    183         
+J. Richard  10709693    10709740    47          
+UMPIRE      10709740    10709833    93          
+Suresh Rai  10709833    10814125    104292      
+UMPIRE      10814125    10814211    86          
+J. Richard  10814211    10814279    68          
+UMPIRE      10814279    10814391    112         
+Suresh Rai  10814391    10919145    104754      
+UMPIRE      10919145    10919232    87          
+J. Richard  10919232    10919344    112         
+UMPIRE      10919344    10919427    83          
+J. Richard  10919427    10919441    14          
+FIELD M. S  10919441    10919590    149         
+UMPIRE      10919590    11919637    1000047     
+David Warn  11919637    11920061    424         
+UMPIRE      11920061    11920208    147         
+Suresh Rai  11920208    12024266    104058      
+UMPIRE      12024266    12024296    30          
+J. Richard  12024296    12024396    100         
+UMPIRE      12024396    12024416    20          
+J. Richard  12024416    12024432    16          
+UMPIRE      12024432    12024517    85          
+Suresh Rai  12024517    12129661    105144      
+UMPIRE      12129661    12129762    101         
+M. Stoinis  12129762    12129867    105         
+UMPIRE      12129867    12129953    86          
+M. Stoinis  12129953    12130026    73          
+UMPIRE      12130026    12130095    69          
+Suresh Rai  12130095    12235168    105073      
+UMPIRE      12235168    12235203    35          
+J. Richard  12235203    12235342    139         
+UMPIRE      12235342    12235436    94          
+Suresh Rai  12235436    12339819    104383      
+UMPIRE      12339819    12340017    198         
+J. Richard  12340017    12340090    73          
+UMPIRE      12340090    12340159    69          
+J. Richard  12340159    12340234    75          
+UMPIRE      12340234    12340276    42          
+M.S. Dhoni  12340276    12444709    104433      
+UMPIRE      12444709    12444747    38          
+M. Stoinis  12444747    12444845    98          
+UMPIRE      12444845    12444976    131         
+M. Stoinis  12444976    12445061    85          
+UMPIRE      12445061    12445146    85          
+M.S. Dhoni  12445146    12549755    104609      
+UMPIRE      12549755    12549856    101         
+J. Richard  12549856    12549968    112         
+UMPIRE      12549968    12550057    89          
+J. Richard  12550057    12550146    89          
+UMPIRE      12550146    12550223    77          
+M.S. Dhoni  12550223    12654422    104199      
+UMPIRE      12654422    12654532    110         
+M. Stoinis  12654532    12654644    112         
+UMPIRE      12654644    12654767    123         
+M. Stoinis  12654767    12654852    85          
+UMPIRE      12654852    12654975    123         
+M.S. Dhoni  12654975    12759834    104859      
+UMPIRE      12759834    12759902    68          
+J. Richard  12759902    12760002    100         
+UMPIRE      12760002    12760122    120         
+J. Richard  12760122    12760211    89          
+UMPIRE      12760211    12760338    127         
+M.S. Dhoni  12760338    12864781    104443      
+UMPIRE      12864781    12864841    60          
+M. Stoinis  12864841    12864945    104         
+UMPIRE      12864945    12865095    150         
+M. Stoinis  12865095    12865139    44          
+UMPIRE      12865139    12865377    238         
+M.S. Dhoni  12865377    12970509    105132      
+UMPIRE      12970509    12970687    178         
+J. Richard  12970687    12970787    100         
+UMPIRE      12970787    12970874    87          
+J. Richard  12970874    12970963    89          
+UMPIRE      12970963    12971062    99          
+R. Jadeja   12971062    13075821    104759      
+UMPIRE      13075821    13075908    87          
+M. Stoinis  13075908    13075983    75          
+UMPIRE      13075983    13076063    80          
+R. Jadeja   13076063    13180833    104770      
+UMPIRE      13180833    13180935    102         
+M. Stoinis  13180935    13180973    38          
+UMPIRE      13180973    13180992    19          
+M. Stoinis  13180992    13181007    15          
+UMPIRE      13181007    13181204    197         
+R. Jadeja   13181204    13285541    104337      
+UMPIRE      13285541    13285651    110         
+J. Richard  13285651    13285765    114         
+UMPIRE      13285765    13285856    91          
+J. Richard  13285856    13285957    101         
+R. Jadeja   13285957    13390824    104867      
+UMPIRE      13390824    13390910    86          
+M. Stoinis  13390910    13390935    25          
+UMPIRE      13390935    13390949    14          
+M. Stoinis  13390949    13390960    11          
+UMPIRE      13390960    13391141    181         
+R. Jadeja   13391141    13494697    103556      
+UMPIRE      13494697    13494786    89          
+M. Starc    13494786    13494877    91          
+UMPIRE      13494877    13494964    87          
+M. Starc    13494964    13495058    94          
+UMPIRE      13495058    13495193    135         
+R. Jadeja   13495193    13599361    104168      
+UMPIRE      13599361    13599433    72          
+M. Stoinis  13599433    13599520    87          
+UMPIRE      13599520    13599535    15          
+M. Stoinis  13599535    13599548    13          
+UMPIRE      13599548    13599684    136         
+H. Pandya   13599684    13703240    103556      
+UMPIRE      13703240    13703334    94          
+M. Starc    13703334    13703447    113         
+UMPIRE      13703447    13703466    19          
+H. Pandya   13703466    13807948    104482      
+UMPIRE      13807948    13808024    76          
+M. Starc    13808024    13808122    98          
+UMPIRE      13808122    13808234    112         
+M. Starc    13808234    13808361    127         
+UMPIRE      13808361    13808586    225         
+M. Stoinis  13808586    13808662    76          
+UMPIRE      13808662    13808741    79          
+H. Pandya   13808741    13912758    104017      
+UMPIRE      13912758    13912833    75          
+M. Starc    13912833    13912942    109         
+UMPIRE      13912942    13913074    132         
+M. Starc    13913074    13913175    101         
+UMPIRE      13913175    13913382    207         
+H. Pandya   13913382    14018412    105030      
+UMPIRE      14018412    14018482    70          
+M. Stoinis  14018482    14018587    105         
+UMPIRE      14018587    14018725    138         
+M. Stoinis  14018725    14018836    111         
+UMPIRE      14018836    14018982    146         
+H. Pandya   14018982    14124166    105184      
+UMPIRE      14124166    14124264    98          
+M. Starc    14124264    14124358    94          
+UMPIRE      14124358    14124457    99          
+M. Starc    14124457    14124541    84          
+UMPIRE      14124541    14124658    117         
+H. Pandya   14124658    14229878    105220      
+UMPIRE      14229878    14230072    194         
+M. Stoinis  14230072    14230176    104         
+UMPIRE      14230176    14230257    81          
+M. Stoinis  14230257    14230274    17          
+UMPIRE      14230274    14230390    116         
+M. Shami    14230390    14335644    105254      
+UMPIRE      14335644    14335727    83          
+M. Starc    14335727    14335765    38          
+UMPIRE      14335765    14335857    92          
+M. Starc    14335857    14335938    81          
+UMPIRE      14335938    14336031    93          
+M. Shami    14336031    14440861    104830      
+UMPIRE      14440861    14441519    658         
+M. Stoinis  14441519    14441638    119         
+UMPIRE      14441638    14441703    65          
+M. Shami    14441703    14545030    103327      
+UMPIRE      14545030    14545158    128         
+M. Stoinis  14545158    14545275    117         
+UMPIRE      14545275    14545364    89          
+M. Shami    14545364    14650406    105042      
+UMPIRE      14650406    14650505    99          
+M. Stoinis  14650505    14650628    123         
+UMPIRE      14650628    14650720    92          
+M. Stoinis  14650720    14650818    98          
+UMPIRE      14650818    14650902    84          
+M. Shami    14650902    14755762    104860      
+UMPIRE      14755762    14755865    103         
+M. Starc    14755865    14755971    106         
+UMPIRE      14755971    14756080    109         
+M. Starc    14756080    14756167    87          
+UMPIRE      14756167    14756263    96          
+M. Shami    14756263    14861651    105388      
+UMPIRE      14861651    14861820    169         
+M. Stoinis  14861820    14861892    72          
+UMPIRE      14861892    14861979    87          
+M. Stoinis  14861979    14862069    90          
+UMPIRE      14862069    14862162    93          
+Jasprit Bu  14862162    14967012    104850      
+UMPIRE      14967012    14967108    96          
+M. Starc    14967108    14967198    90          
+UMPIRE      14967198    14967287    89          
+Jasprit Bu  14967287    15071844    104557      
+UMPIRE      15071844    15071946    102         
+M. Starc    15071946    15072030    84          
+UMPIRE      15072030    15072118    88          
+M. Starc    15072118    15072212    94          
+Jasprit Bu  15072212    15177162    104950      
+UMPIRE      15177162    15177242    80          
+M. Stoinis  15177242    15177330    88          
+UMPIRE      15177330    15177412    82          
+M. Stoinis  15177412    15177483    71          
+UMPIRE      15177483    15177530    47          
+Jasprit Bu  15177530    15281831    104301      
+UMPIRE      15281831    15281913    82          
+A. Zampa    15281913    15282016    103         
+UMPIRE      15282016    15282109    93          
+A. Zampa    15282109    15282169    60          
+Jasprit Bu  15282169    15386418    104249      
+UMPIRE      15386418    15386506    88          
+M. Stoinis  15386506    15386618    112         
+UMPIRE      15386618    15386709    91          
+M. Stoinis  15386709    15386801    92          
+Jasprit Bu  15386801    15490954    104153      
+UMPIRE      15490954    15490985    31          
+Usman Khwa  15490985    15492937    1952        
+UMPIRE      15492937    15493020    83          
+Rohit Shar  15493020    15493078    58          
+UMPIRE      15493078    15493092    14          
+Rohit Shar  15493092    15493104    12          
+UMPIRE      15493104    15493174    70          
+Usman Khwa  15493174    15596803    103629      
+UMPIRE      15596803    15596890    87          
+Shikhar Dh  15596890    15596974    84          
+UMPIRE      15596974    15597067    93          
+Shikhar Dh  15597067    15597133    66          
+UMPIRE      15597133    15597181    48          
+Usman Khwa  15597181    15701724    104543      
+UMPIRE      15701724    15701831    107         
+Rohit Shar  15701831    15701864    33          
+UMPIRE      15701864    15701883    19          
+Usman Khwa  15701883    15806651    104768      
+UMPIRE      15806651    15806733    82          
+Rohit Shar  15806733    15806764    31          
+UMPIRE      15806764    15806789    25          
+Rohit Shar  15806789    15806803    14          
+UMPIRE      15806803    15806976    173         
+Usman Khwa  15806976    15910960    103984      
+UMPIRE      15910960    15911032    72          
+Shikhar Dh  15911032    15911118    86          
+UMPIRE      15911118    15911193    75          
+Shikhar Dh  15911193    15911258    65          
+UMPIRE      15911258    15911300    42          
+Usman Khwa  15911300    16014909    103609      
+UMPIRE      16014909    16015132    223         
+Rohit Shar  16015132    16015169    37          
+UMPIRE      16015169    16015185    16          
+Rohit Shar  16015185    16015196    11          
+UMPIRE      16015196    16015378    182         
+Aeron Finc  16015378    16119771    104393      
+UMPIRE      16119771    16119868    97          
+Shikhar Dh  16119868    16119967    99          
+UMPIRE      16119967    16120051    84          
+Aeron Finc  16120051    16223742    103691      
+UMPIRE      16223742    16223823    81          
+Shikhar Dh  16223823    16223910    87          
+UMPIRE      16223910    16223987    77          
+Shikhar Dh  16223987    16224039    52          
+UMPIRE      16224039    16224077    38          
+Aeron Finc  16224077    16328367    104290      
+UMPIRE      16328367    16328465    98          
+Rohit Shar  16328465    16328502    37          
+UMPIRE      16328502    16328520    18          
+Rohit Shar  16328520    16328536    16          
+UMPIRE      16328536    16328797    261         
+Aeron Finc  16328797    16433904    105107      
+UMPIRE      16433904    16433993    89          
+Shikhar Dh  16433993    16434085    92          
+UMPIRE      16434085    16434148    63          
+Shikhar Dh  16434148    16434242    94          
+UMPIRE      16434242    16434275    33          
+Aeron Finc  16434275    16537879    103604      
+UMPIRE      16537879    16537978    99          
+Rohit Shar  16537978    16538083    105         
+UMPIRE      16538083    16538172    89          
+Aeron Finc  16538172    16642906    104734      
+UMPIRE      16642906    16643075    169         
+Rohit Shar  16643075    16643181    106         
+UMPIRE      16643181    16643273    92          
+Rohit Shar  16643273    16643380    107         
+UMPIRE      16643380    16643463    83          
+Alex Carry  16643463    16747989    104526      
+UMPIRE      16747989    16748017    28          
+Shikhar Dh  16748017    16748106    89          
+UMPIRE      16748106    16748131    25          
+Shikhar Dh  16748131    16748144    13          
+UMPIRE      16748144    16748245    101         
+Alex Carry  16748245    16853296    105051      
+UMPIRE      16853296    16853365    69          
+Rohit Shar  16853365    16853467    102         
+UMPIRE      16853467    16853586    119         
+Rohit Shar  16853586    16853703    117         
+UMPIRE      16853703    16853849    146         
+Alex Carry  16853849    16958421    104572      
+UMPIRE      16958421    16958444    23          
+Shikhar Dh  16958444    16958537    93          
+UMPIRE      16958537    16958559    22          
+Shikhar Dh  16958559    16958576    17          
+UMPIRE      16958576    16958803    227         
+Alex Carry  16958803    17063903    105100      
+UMPIRE      17063903    17063971    68          
+Rohit Shar  17063971    17064066    95          
+UMPIRE      17064066    17064131    65          
+Rohit Shar  17064131    17064213    82          
+UMPIRE      17064213    17064347    134         
+Alex Carry  17064347    17169435    105088      
+UMPIRE      17169435    17169508    73          
+Shikhar Dh  17169508    17169629    121         
+UMPIRE      17169629    17169713    84          
+Alex Carry  17169713    17274493    104780      
+UMPIRE      17274493    17274585    92          
+Shikhar Dh  17274585    17274682    97          
+UMPIRE      17274682    17274801    119         
+Glen Maxwe  17274801    17380155    105354      
+UMPIRE      17380155    17380255    100         
+Shikhar Dh  17380255    17380374    119         
+UMPIRE      17380374    17380468    94          
+Shikhar Dh  17380468    17380561    93          
+UMPIRE      17380561    17380752    191         
+Glen Maxwe  17380752    17485400    104648      
+UMPIRE      17485400    17485499    99          
+Rohit Shar  17485499    17485628    129         
+UMPIRE      17485628    17485709    81          
+Rohit Shar  17485709    17485817    108         
+UMPIRE      17485817    17485890    73          
+Glen Maxwe  17485890    17590178    104288      
+UMPIRE      17590178    17590274    96          
+Shikhar Dh  17590274    17590401    127         
+UMPIRE      17590401    17590487    86          
+Glen Maxwe  17590487    17695208    104721      
+UMPIRE      17695208    17695291    83          
+Shikhar Dh  17695291    17695394    103         
+UMPIRE      17695394    17695466    72          
+Glen Maxwe  17695466    17799765    104299      
+UMPIRE      17799765    17799846    81          
+Shikhar Dh  17799846    17799948    102         
+UMPIRE      17799948    17800038    90          
+Glen Maxwe  17800038    17904626    104588      
+UMPIRE      17904626    17904777    151         
+Shikhar Dh  17904777    17904867    90          
+UMPIRE      17904867    17904945    78          
+Shikhar Dh  17904945    17905034    89          
+UMPIRE      17905034    17905111    77          
+Steve Smit  17905111    18009586    104475      
+UMPIRE      18009586    18009685    99          
+Rohit Shar  18009685    18009731    46          
+UMPIRE      18009731    18009824    93          
+Rohit Shar  18009824    18009849    25          
+UMPIRE      18009849    18009964    115         
+Steve Smit  18009964    18114493    104529      
+UMPIRE      18114493    18114584    91          
+Shikhar Dh  18114584    18114687    103         
+UMPIRE      18114687    18114780    93          
+Shikhar Dh  18114780    18114861    81          
+UMPIRE      18114861    18115081    220         
+Steve Smit  18115081    18219568    104487      
+UMPIRE      18219568    18219664    96          
+Rohit Shar  18219664    18219758    94          
+UMPIRE      18219758    18219846    88          
+Steve Smit  18219846    18324270    104424      
+UMPIRE      18324270    18324350    80          
+Rohit Shar  18324350    18324458    108         
+UMPIRE      18324458    18324530    72          
+Rohit Shar  18324530    18324655    125         
+UMPIRE      18324655    18324720    65          
+Steve Smit  18324720    18429332    104612      
+UMPIRE      18429332    18429418    86          
+Shikhar Dh  18429418    18429518    100         
+UMPIRE      18429518    18429627    109         
+Shikhar Dh  18429627    18429745    118         
+UMPIRE      18429745    18429850    105         
+Steve Smit  18429850    18533933    104083      
+UMPIRE      18533933    18534096    163         
+Rohit Shar  18534096    18534124    28          
+UMPIRE      18534124    18534139    15          
+David Warn  18534139    18637632    103493      
+UMPIRE      18637632    18637723    91          
+Rohit Shar  18637723    18637758    35          
+UMPIRE      18637758    18637776    18          
+David Warn  18637776    18741988    104212      
+UMPIRE      18741988    18742096    108         
+Rohit Shar  18742096    18742131    35          
+UMPIRE      18742131    18742144    13          
+Rohit Shar  18742144    18742158    14          
+UMPIRE      18742158    18742288    130         
+David Warn  18742288    18846845    104557      
+UMPIRE      18846845    18846921    76          
+Shikhar Dh  18846921    18846988    67          
+UMPIRE      18846988    18847067    79          
+Shikhar Dh  18847067    18847133    66          
+UMPIRE      18847133    18847181    48          
+David Warn  18847181    18950900    103719      
+UMPIRE      18950900    18950982    82          
+Rohit Shar  18950982    18951065    83          
+UMPIRE      18951065    18951138    73          
+Rohit Shar  18951138    18951222    84          
+UMPIRE      18951222    18951284    62          
+David Warn  18951284    19055785    104501      
+UMPIRE      19055785    19055856    71          
+Shikhar Dh  19055856    19055943    87          
+UMPIRE      19055943    19056012    69          
+Shikhar Dh  19056012    19056105    93          
+UMPIRE      19056105    19056201    96          
+David Warn  19056201    19160483    104282      
+UMPIRE      19160483    19160595    112         
+Rohit Shar  19160595    19160721    126         
+UMPIRE      19160721    19160794    73          
+Rohit Shar  19160794    19160880    86          
+UMPIRE      19160880    19160981    101         
+J. Richard  19160981    19265354    104373      
+UMPIRE      19265354    19265419    65          
+Shikhar Dh  19265419    19265521    102         
+UMPIRE      19265521    19265590    69          
+Shikhar Dh  19265590    19265620    30          
+UMPIRE      19265620    19265843    223         
+J. Richard  19265843    19370299    104456      
+UMPIRE      19370299    19370324    25          
+Rohit Shar  19370324    19370418    94          
+UMPIRE      19370418    19370439    21          
+Rohit Shar  19370439    19370450    11          
+UMPIRE      19370450    19370515    65          
+J. Richard  19370515    19475596    105081      
+UMPIRE      19475596    19475702    106         
+Shikhar Dh  19475702    19475779    77          
+UMPIRE      19475779    19475855    76          
+Shikhar Dh  19475855    19475927    72          
+UMPIRE      19475927    19476048    121         
+J. Richard  19476048    19580505    104457      
+UMPIRE      19580505    19580617    112         
+Rohit Shar  19580617    19580717    100         
+UMPIRE      19580717    19580808    91          
+Rohit Shar  19580808    19580913    105         
+UMPIRE      19580913    19580985    72          
+J. Richard  19580985    19685297    104312      
+UMPIRE      19685297    19685396    99          
+Shikhar Dh  19685396    19685493    97          
+UMPIRE      19685493    19685582    89          
+Shikhar Dh  19685582    19685598    16          
+UMPIRE      19685598    19685752    154         
+J. Richard  19685752    19790208    104456      
+UMPIRE      19790208    19790394    186         
+Rohit Shar  19790394    19790501    107         
+UMPIRE      19790501    19790597    96          
+Rohit Shar  19790597    19790745    148         
+UMPIRE      19790745    19790804    59          
+M. Stoinis  19790804    19895214    104410      
+UMPIRE      19895214    19895303    89          
+Shikhar Dh  19895303    19895399    96          
+UMPIRE      19895399    19895509    110         
+Shikhar Dh  19895509    19895525    16          
+UMPIRE      19895525    19895683    158         
+M. Stoinis  19895683    20000245    104562      
+UMPIRE      20000245    20000339    94          
+Rohit Shar  20000339    20000438    99          
+UMPIRE      20000438    20000457    19          
+M. Stoinis  20000457    20105125    104668      
+UMPIRE      20105125    20105218    93          
+Rohit Shar  20105218    20105334    116         
+UMPIRE      20105334    20105425    91          
+Rohit Shar  20105425    20105442    17          
+UMPIRE      20105442    20105564    122         
+M. Stoinis  20105564    20210564    105000      
+UMPIRE      20210564    20210664    100         
+Shikhar Dh  20210664    20210768    104         
+UMPIRE      20210768    20210862    94          
+Shikhar Dh  20210862    20210953    91          
+UMPIRE      20210953    20211060    107         
+M. Stoinis  20211060    20316148    105088      
+UMPIRE      20316148    20316247    99          
+Rohit Shar  20316247    20316361    114         
+UMPIRE      20316361    20316412    51          
+Rohit Shar  20316412    20316429    17          
+UMPIRE      20316429    20316559    130         
+M. Stoinis  20316559    20421699    105140      
+UMPIRE      20421699    20421873    174         
+Shikhar Dh  20421873    20421976    103         
+UMPIRE      20421976    20422063    87          
+Shikhar Dh  20422063    20422169    106         
+M. Starc    20422169    20527204    105035      
+UMPIRE      20527204    20527318    114         
+Rohit Shar  20527318    20527414    96          
+UMPIRE      20527414    20527502    88          
+M. Starc    20527502    20632111    104609      
+UMPIRE      20632111    20632209    98          
+Rohit Shar  20632209    20632332    123         
+UMPIRE      20632332    20632380    48          
+Rohit Shar  20632380    20632507    127         
+UMPIRE      20632507    20632566    59          
+M. Starc    20632566    20737579    105013      
+UMPIRE      20737579    20737656    77          
+Virat Kohl  20737656    20737734    78          
+UMPIRE      20737734    20737823    89          
+M. Starc    20737823    20841662    103839      
+UMPIRE      20841662    20841760    98          
+Virat Kohl  20841760    20841871    111         
+UMPIRE      20841871    20841962    91          
+M. Starc    20841962    20946598    104636      
+UMPIRE      20946598    20946699    101         
+Virat Kohl  20946699    20946795    96          
+UMPIRE      20946795    20946886    91          
+Virat Kohl  20946886    20946981    95          
+UMPIRE      20946981    20947043    62          
+M. Starc    20947043    21051798    104755      
+UMPIRE      21051798    21051968    170         
+Rohit Shar  21051968    21052083    115         
+UMPIRE      21052083    21052174    91          
+Rohit Shar  21052174    21052268    94          
+UMPIRE      21052268    21052326    58          
+A. Zampa    21052326    21157190    104864      
+UMPIRE      21157190    21157285    95          
+Virat Kohl  21157285    21157373    88          
+UMPIRE      21157373    21157459    86          
+Virat Kohl  21157459    21157476    17          
+UMPIRE      21157476    21157556    80          
+A. Zampa    21157556    21262955    105399      
+UMPIRE      21262955    21263036    81          
+Rohit Shar  21263036    21263127    91          
+UMPIRE      21263127    21263220    93          
+Rohit Shar  21263220    21263293    73          
+UMPIRE      21263293    21263339    46          
+A. Zampa    21263339    21367204    103865      
+UMPIRE      21367204    21367255    51          
+Virat Kohl  21367255    21367358    103         
+UMPIRE      21367358    21367453    95          
+Virat Kohl  21367453    21367470    17          
+UMPIRE      21367470    21367536    66          
+A. Zampa    21367536    21472042    104506      
+UMPIRE      21472042    21472146    104         
+Rohit Shar  21472146    21472237    91          
+UMPIRE      21472237    21472355    118         
+Rohit Shar  21472355    21472476    121         
+UMPIRE      21472476    21472643    167         
+Virat Kohl  21472643    21472663    20          
+UMPIRE      21472663    21472776    113         
+A. Zampa    21472776    21577060    104284      
+UMPIRE      21577060    21577154    94          
+Rohit Shar  21577154    21577258    104         
+UMPIRE      21577258    21577353    95          
+Rohit Shar  21577353    21577371    18          
+UMPIRE      21577371    21577547    176         
+A. Zampa    21577547    21682059    104512      
+UMPIRE      21682059    21682246    187         
+Virat Kohl  21682246    21682376    130         
+UMPIRE      21682376    21682462    86          
+Virat Kohl  21682462    21682479    17          
+UMPIRE      21682479    21682643    164         
+N. Lyon     21682643    21786940    104297      
+UMPIRE      21786940    21787028    88          
+Rohit Shar  21787028    21787138    110         
+UMPIRE      21787138    21787223    85          
+Rohit Shar  21787223    21787310    87          
+UMPIRE      21787310    21787505    195         
+N. Lyon     21787505    21892066    104561      
+UMPIRE      21892066    21892161    95          
+Virat Kohl  21892161    21892241    80          
+UMPIRE      21892241    21892319    78          
+Virat Kohl  21892319    21892389    70          
+UMPIRE      21892389    21892445    56          
+N. Lyon     21892445    21997296    104851      
+UMPIRE      21997296    21997398    102         
+Rohit Shar  21997398    21997514    116         
+UMPIRE      21997514    21997632    118         
+Rohit Shar  21997632    21997728    96          
+UMPIRE      21997728    21997923    195         
+N. Lyon     21997923    22102641    104718      
+UMPIRE      22102641    22102745    104         
+Virat Kohl  22102745    22102993    248         
+UMPIRE      22102993    22103083    90          
+N. Lyon     22103083    22207547    104464      
+UMPIRE      22207547    22207652    105         
+Virat Kohl  22207652    22207770    118         
+UMPIRE      22207770    22207867    97          
+Virat Kohl  22207867    22207986    119         
+N. Lyon     22207986    22312981    104995      
+UMPIRE      22312981    22313147    166         
+Rohit Shar  22313147    22313244    97          
+UMPIRE      22313244    22313359    115         
+Rohit Shar  22313359    22313500    141         
+UMPIRE      22313500    22313748    248         
+Yuvraj Sin  22313748    22313821    73          
+UMPIRE      22313821    22313864    43          
+Usman Khwa  22313864    22418515    104651      
+UMPIRE      22418515    22418533    18          
+Rohit Shar  22418533    22418637    104         
+UMPIRE      22418637    22418720    83          
+Rohit Shar  22418720    22418810    90          
+UMPIRE      22418810    22419011    201         
+Usman Khwa  22419011    22523637    104626      
+UMPIRE      22523637    22523663    26          
+Yuvraj Sin  22523663    22523781    118         
+UMPIRE      22523781    22523872    91          
+Yuvraj Sin  22523872    22524010    138         
+UMPIRE      22524010    22524261    251         
+Rohit Shar  22524261    22524347    86          
+UMPIRE      22524347    22524447    100         
+Usman Khwa  22524447    22628694    104247      
+UMPIRE      22628694    22628715    21          
+Yuvraj Sin  22628715    22628834    119         
+UMPIRE      22628834    22628925    91          
+Usman Khwa  22628925    22733884    104959      
+UMPIRE      22733884    22733977    93          
+Yuvraj Sin  22733977    22734110    133         
+UMPIRE      22734110    22734205    95          
+Usman Khwa  22734205    22838798    104593      
+UMPIRE      22838798    22838821    23          
+Yuvraj Sin  22838821    22838898    77          
+UMPIRE      22838898    22839001    103         
+Yuvraj Sin  22839001    22839157    156         
+UMPIRE      22839157    22839318    161         
+Usman Khwa  22839318    22943671    104353      
+UMPIRE      22943671    22943862    191         
+Rohit Shar  22943862    22943955    93          
+UMPIRE      22943955    22944030    75          
+Rohit Shar  22944030    22944107    77          
+UMPIRE      22944107    22944227    120         
+Aeron Finc  22944227    23049001    104774      
+UMPIRE      23049001    23049090    89          
+Yuvraj Sin  23049090    23049212    122         
+UMPIRE      23049212    23049304    92          
+Yuvraj Sin  23049304    23049395    91          
+UMPIRE      23049395    23049465    70          
+Aeron Finc  23049465    23153906    104441      
+UMPIRE      23153906    23153998    92          
+Rohit Shar  23153998    23154098    100         
+UMPIRE      23154098    23154236    138         
+Rohit Shar  23154236    23154273    37          
+UMPIRE      23154273    23154407    134         
+Aeron Finc  23154407    23258961    104554      
+UMPIRE      23258961    23259046    85          
+Yuvraj Sin  23259046    23259172    126         
+UMPIRE      23259172    23259192    20          
+Yuvraj Sin  23259192    23259209    17          
+UMPIRE      23259209    23259335    126         
+Aeron Finc  23259335    23363908    104573      
+UMPIRE      23363908    23363929    21          
+Rohit Shar  23363929    23364016    87          
+UMPIRE      23364016    23364030    14          
+Aeron Finc  23364030    23467898    103868      
+UMPIRE      23467898    23467922    24          
+Rohit Shar  23467922    23468020    98          
+UMPIRE      23468020    23468058    38          
+Rohit Shar  23468058    23468068    10          
+UMPIRE      23468068    23468206    138         
+Aeron Finc  23468206    23572679    104473      
+UMPIRE      23572679    23572896    217         
+Yuvraj Sin  23572896    23572971    75          
+UMPIRE      23572971    23573067    96          
+Yuvraj Sin  23573067    23573218    151         
+UMPIRE      23573218    23573281    63          
+Alex Carry  23573281    23678163    104882      
+UMPIRE      23678163    23678261    98          
+Rohit Shar  23678261    23678361    100         
+UMPIRE      23678361    23678455    94          
+Rohit Shar  23678455    23678475    20          
+UMPIRE      23678475    23678659    184         
+Alex Carry  23678659    23783715    105056      
+UMPIRE      23783715    23783805    90          
+Yuvraj Sin  23783805    23783906    101         
+UMPIRE      23783906    23784003    97          
+Yuvraj Sin  23784003    23784136    133         
+UMPIRE      23784136    23784320    184         
+Alex Carry  23784320    23888628    104308      
+UMPIRE      23888628    23888729    101         
+Rohit Shar  23888729    23888839    110         
+UMPIRE      23888839    23888936    97          
+Rohit Shar  23888936    23889077    141         
+UMPIRE      23889077    23889252    175         
+Alex Carry  23889252    23993756    104504      
+UMPIRE      23993756    23993846    90          
+Yuvraj Sin  23993846    23993949    103         
+UMPIRE      23993949    23994027    78          
+Yuvraj Sin  23994027    23994160    133         
+UMPIRE      23994160    23994328    168         
+Rohit Shar  23994328    23994342    14          
+UMPIRE      23994342    23994444    102         
+Alex Carry  23994444    24099033    104589      
+UMPIRE      24099033    24099134    101         
+Yuvraj Sin  24099134    24099249    115         
+UMPIRE      24099249    24099345    96          
+Alex Carry  24099345    24204154    104809      
+UMPIRE      24204154    24204334    180         
+Yuvraj Sin  24204334    24204400    66          
+UMPIRE      24204400    24204485    85          
+Yuvraj Sin  24204485    24204506    21          
+UMPIRE      24204506    24204670    164         
+Glen Maxwe  24204670    24309931    105261      
+UMPIRE      24309931    24310028    97          
+Rohit Shar  24310028    24310138    110         
+UMPIRE      24310138    24310229    91          
+Rohit Shar  24310229    24310250    21          
+UMPIRE      24310250    24310381    131         
+Glen Maxwe  24310381    24414880    104499      
+UMPIRE      24414880    24414985    105         
+Yuvraj Sin  24414985    24415101    116         
+UMPIRE      24415101    24415194    93          
+Yuvraj Sin  24415194    24415271    77          
+UMPIRE      24415271    24415369    98          
+Glen Maxwe  24415369    24520031    104662      
+UMPIRE      24520031    24520122    91          
+Rohit Shar  24520122    24520242    120         
+UMPIRE      24520242    24520325    83          
+Rohit Shar  24520325    24520398    73          
+UMPIRE      24520398    24520493    95          
+Glen Maxwe  24520493    24624668    104175      
+UMPIRE      24624668    24624757    89          
+Yuvraj Sin  24624757    24624869    112         
+UMPIRE      24624869    24624953    84          
+Yuvraj Sin  24624953    24625087    134         
+UMPIRE      24625087    24625251    164         
+Glen Maxwe  24625251    24729292    104041      
+UMPIRE      24729292    24729380    88          
+Rohit Shar  24729380    24729482    102         
+UMPIRE      24729482    24729565    83          
+Rohit Shar  24729565    24729690    125         
+UMPIRE      24729690    24729791    101         
+Glen Maxwe  24729791    24833865    104074      
+UMPIRE      24833865    24834061    196         
+Yuvraj Sin  24834061    24834188    127         
+UMPIRE      24834188    24834276    88          
+Yuvraj Sin  24834276    24834341    65          
+UMPIRE      24834341    24834436    95          
+Steve Smit  24834436    24938741    104305      
+UMPIRE      24938741    24938774    33          
+Rohit Shar  24938774    24938870    96          
+UMPIRE      24938870    24938893    23          
+Rohit Shar  24938893    24938909    16          
+UMPIRE      24938909    24939049    140         
+Steve Smit  24939049    25043375    104326      
+UMPIRE      25043375    25043472    97          
+Yuvraj Sin  25043472    25043582    110         
+UMPIRE      25043582    25043620    38          
+Yuvraj Sin  25043620    25043642    22          
+UMPIRE      25043642    25043834    192         
+Steve Smit  25043834    25147967    104133      
+UMPIRE      25147967    25148062    95          
+Rohit Shar  25148062    25148181    119         
+UMPIRE      25148181    25148271    90          
+Rohit Shar  25148271    25148391    120         
+UMPIRE      25148391    25148511    120         
+Steve Smit  25148511    25253673    105162      
+UMPIRE      25253673    25253768    95          
+Yuvraj Sin  25253768    25253890    122         
+UMPIRE      25253890    25253978    88          
+Yuvraj Sin  25253978    25254110    132         
+UMPIRE      25254110    25254270    160         
+Steve Smit  25254270    25358968    104698      
+UMPIRE      25358968    25359067    99          
+Rohit Shar  25359067    25359179    112         
+UMPIRE      25359179    25359279    100         
+Rohit Shar  25359279    25359407    128         
+UMPIRE      25359407    25359638    231         
+Steve Smit  25359638    25464767    105129      
+UMPIRE      25464767    25464961    194         
+Yuvraj Sin  25464961    25465054    93          
+UMPIRE      25465054    25465143    89          
+Yuvraj Sin  25465143    25465227    84          
+UMPIRE      25465227    25465354    127         
+David Warn  25465354    25569689    104335      
+UMPIRE      25569689    25569775    86          
+Rohit Shar  25569775    25569859    84          
+UMPIRE      25569859    25569948    89          
+Rohit Shar  25569948    25570029    81          
+UMPIRE      25570029    25570134    105         
+David Warn  25570134    25674677    104543      
+UMPIRE      25674677    25674779    102         
+Yuvraj Sin  25674779    25674865    86          
+UMPIRE      25674865    25674953    88          
+David Warn  25674953    25779777    104824      
+UMPIRE      25779777    25779866    89          
+Yuvraj Sin  25779866    25779988    122         
+UMPIRE      25779988    25780081    93          
+Yuvraj Sin  25780081    25780220    139         
+UMPIRE      25780220    25780315    95          
+David Warn  25780315    25885024    104709      
+UMPIRE      25885024    25885074    50          
+Rohit Shar  25885074    25885210    136         
+UMPIRE      25885210    25885237    27          
+Rohit Shar  25885237    25885250    13          
+UMPIRE      25885250    25885394    144         
+David Warn  25885394    25990057    104663      
+UMPIRE      25990057    25990149    92          
+Yuvraj Sin  25990149    25990313    164         
+UMPIRE      25990313    25990406    93          
+David Warn  25990406    26095061    104655      
+UMPIRE      26095061    26095312    251         
+Yuvraj Sin  26095312    26095383    71          
+UMPIRE      26095383    26095475    92          
+J. Richard  26095475    26200381    104906      
+UMPIRE      26200381    26200479    98          
+Yuvraj Sin  26200479    26200597    118         
+UMPIRE      26200597    26200744    147         
+Yuvraj Sin  26200744    26200853    109         
+UMPIRE      26200853    26200998    145         
+J. Richard  26200998    26305871    104873      
+UMPIRE      26305871    26305971    100         
+Rohit Shar  26305971    26306083    112         
+UMPIRE      26306083    26306126    43          
+Rohit Shar  26306126    26306262    136         
+UMPIRE      26306262    26306341    79          
+J. Richard  26306341    26411173    104832      
+UMPIRE      26411173    26411271    98          
+Yuvraj Sin  26411271    26411393    122         
+UMPIRE      26411393    26411414    21          
+Yuvraj Sin  26411414    26411432    18          
+UMPIRE      26411432    26411551    119         
+J. Richard  26411551    26516557    105006      
+UMPIRE      26516557    26516630    73          
+Rohit Shar  26516630    26516725    95          
+UMPIRE      26516725    26516812    87          
+J. Richard  26516812    26621490    104678      
+UMPIRE      26621490    26621557    67          
+Rohit Shar  26621557    26621665    108         
+UMPIRE      26621665    26621793    128         
+J. Richard  26621793    26726791    104998      
+UMPIRE      26726791    26726939    148         
+Rohit Shar  26726939    26727056    117         
+UMPIRE      26727056    26727157    101         
+M. Stoinis  26727157    26831322    104165      
+UMPIRE      26831322    26831417    95          
+Rohit Shar  26831417    26831499    82          
+UMPIRE      26831499    26831594    95          
+Rohit Shar  26831594    26831734    140         
+UMPIRE      26831734    26831813    79          
+M. Stoinis  26831813    26936635    104822      
+UMPIRE      26936635    26936719    84          
+Yuvraj Sin  26936719    26936829    110         
+UMPIRE      26936829    26936906    77          
+Yuvraj Sin  26936906    26936988    82          
+UMPIRE      26936988    26937044    56          
+M. Stoinis  26937044    27041022    103978      
+UMPIRE      27041022    27041115    93          
+Rohit Shar  27041115    27041221    106         
+UMPIRE      27041221    27041309    88          
+Rohit Shar  27041309    27041400    91          
+UMPIRE      27041400    27041552    152         
+M. Stoinis  27041552    27145969    104417      
+UMPIRE      27145969    27146010    41          
+Yuvraj Sin  27146010    27146100    90          
+UMPIRE      27146100    27146186    86          
+Yuvraj Sin  27146186    27146297    111         
+UMPIRE      27146297    27146425    128         
+M. Stoinis  27146425    27250448    104023      
+UMPIRE      27250448    27250474    26          
+Rohit Shar  27250474    27250502    28          
+UMPIRE      27250502    27250517    15          
+Rohit Shar  27250517    27250554    37          
+UMPIRE      27250554    27250761    207         
+M. Stoinis  27250761    27355277    104516      
+UMPIRE      27355277    27355439    162         
+Yuvraj Sin  27355439    27355541    102         
+UMPIRE      27355541    27355559    18          
+M. Starc    27355559    27459986    104427      
+UMPIRE      27459986    27460066    80          
+Yuvraj Sin  27460066    27460139    73          
+UMPIRE      27460139    27460194    55          
+Yuvraj Sin  27460194    27460250    56          
+UMPIRE      27460250    27460322    72          
+M. Starc    27460322    27563665    103343      
+UMPIRE      27563665    27563884    219         
+Rohit Shar  27563884    27563959    75          
+UMPIRE      27563959    27564019    60          
+Rohit Shar  27564019    27564107    88          
+UMPIRE      27564107    27564174    67          
+M. Starc    27564174    27668579    104405      
+UMPIRE      27668579    27668664    85          
+Yuvraj Sin  27668664    27668762    98          
+UMPIRE      27668762    27668856    94          
+M. Starc    27668856    27773083    104227      
+UMPIRE      27773083    27773172    89          
+Yuvraj Sin  27773172    27773263    91          
+UMPIRE      27773263    27773353    90          
+M. Starc    27773353    27877844    104491      
+UMPIRE      27877844    27877874    30          
+Yuvraj Sin  27877874    27877896    22          
