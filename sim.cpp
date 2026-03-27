@@ -19,14 +19,21 @@ void *batsmanApi(void *);
 void *bowlersApi(void *);
 void *fieldersApi(void *);
 bool inningRun();
+void updateGantt(string name);
 
-int RUNOUT_WAIT = 80;
+vector<pair<long long, string>> gantt;
+int initial;
+int RUNOUT_WAIT = 70;
 int BALL_WAIT = 100000;
 
 pthread_mutex_t GLOB = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t NEXTBOWLER = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t BOWLER = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t BATTER = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t MUT = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t MUT2 = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t DLD = PTHREAD_MUTEX_INITIALIZER;
+
 
 vector<pthread_mutex_t> creases(2, PTHREAD_MUTEX_INITIALIZER);
 bowler *liveBowler;
@@ -40,10 +47,11 @@ pthread_mutex_t pitch = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t FIELD = PTHREAD_COND_INITIALIZER;
 pthread_cond_t READYOUT = PTHREAD_COND_INITIALIZER;
 pthread_cond_t READYBAT = PTHREAD_COND_INITIALIZER;
+pthread_cond_t UMPIRED = PTHREAD_COND_INITIALIZER;
 bool RUN = false;
 
 
-vector<string> commentries;
+vector<string> commentries, allComm;
 int currCrease = 0;
 bool out = false;
 int TARGET;
@@ -82,6 +90,61 @@ public:
         outType = "YET TO BAT";
     }
 };
+
+class deadlockDetector {
+public:
+    string creaseAccess[2];
+    set<pair<string, int>> edgesDirected;
+
+    deadlockDetector() {
+        creaseAccess[0] = "NONE";
+        creaseAccess[1] = "NONE";
+    }
+
+    void updateAccess(int crease, string holder) {
+        pthread_mutex_lock(&DLD);
+        creaseAccess[crease] = holder;
+        pthread_mutex_unlock(&DLD);
+    }
+
+    void addEdge(string player, int crease) {
+        pthread_mutex_lock(&DLD);
+        edgesDirected.insert({player, crease});
+        pthread_mutex_unlock(&DLD);
+    }
+
+    void remEdge(string player, int crease) {
+        pthread_mutex_lock(&DLD);
+        edgesDirected.erase({player, crease});
+        pthread_mutex_unlock(&DLD);
+    }
+
+    void resetCrease(int crease, string player) {
+        pthread_mutex_lock(&DLD);
+        if (creaseAccess[crease] != player) creaseAccess[crease] = "NONE";
+        pthread_mutex_unlock(&DLD);
+    }
+
+    void detectAndSlaughter() {
+        if (creaseAccess[0] == "NONE" || creaseAccess[1] == "NONE") return;
+        if (creaseAccess[1] == "FIELDER") {
+            if (edgesDirected.begin()->second == 1 || (++edgesDirected.begin())->second == 1) {
+                cout << "DEADLOCK DETECTED" << endl;
+                commentries.push_back("DEADLOCK DETECTED");
+                pthread_mutex_lock(&MUT2);
+                pthread_mutex_lock(&MUT);
+                pthread_mutex_unlock(&MUT);
+                pthread_cond_signal(&UMPIRED);
+                cout << "DEADLOCK REMOVED" << endl;
+                pthread_cond_wait(&READYBAT, &MUT2);
+                cout << "DEADLOCK DONE" << endl;
+                pthread_mutex_unlock(&MUT2);
+            }
+        }
+    }
+};
+
+deadlockDetector dld;
 
 class bowler {
 public:
@@ -209,6 +272,7 @@ public:
             string Bowler = liveBowler->name;
             pthread_cond_signal(&BALL);
             pthread_cond_wait(&READY, &GLOB);
+            updateGantt("UMPIRE");
             currBowler->balls++;
             //BALL DONE
             pthread_mutex_lock(&BATTER);
@@ -216,6 +280,8 @@ public:
 
             pthread_cond_signal(&liveBatsman->ACT);
             pthread_cond_wait(&READYBAT, &GLOB);
+            updateGantt("UMPIRE");
+
 
             liveBatsman->balls++;
 
@@ -261,11 +327,13 @@ public:
 
                     if (battingTeam->score < TARGET) {
                         if (runs % 2 == 0) {
+                            cout << "ONE" << endl;
                             pthread_mutex_lock(&BATTER);
                             pthread_mutex_unlock(&BATTER);
 
                             pthread_cond_signal(&liveBatsman->ACT);
                             pthread_cond_wait(&READYBAT, &GLOB);
+                            updateGantt("UMPIRE");
                         }
 
                         pthread_mutex_lock(&BATTER);
@@ -273,7 +341,20 @@ public:
 
                         pthread_cond_signal(&liveBatsman->ACT);
                         pthread_cond_broadcast(&FIELD);
-                        pthread_cond_wait(&READYBAT, &GLOB);
+
+                        struct timespec ts;
+                        struct timeval now;
+                        int rt = 0;
+
+                        //    gettimeofday(&now,NULL); // DOES NOT FUNCTION CORRECTLY
+                        //    timeToWait.tv_sec = now.tv_sec+5;
+                        //    timeToWait.tv_nsec = (now.tv_usec+1000UL*timeInMs)*1000UL;
+
+                        clock_gettime(CLOCK_REALTIME, &ts);
+                        ts.tv_sec += 1;
+                        pthread_cond_timedwait(&READYBAT, &GLOB, &ts);
+                        updateGantt("UMPIRE");
+                        dld.detectAndSlaughter();
                     }
 
                     if (out) {
@@ -285,6 +366,7 @@ public:
                         battingTeam->wickets++;
                         pthread_cond_signal(&liveBatsman->ACT);
                         pthread_cond_wait(&READYBAT, &GLOB);
+                        updateGantt("UMPIRE");
                     } else {
                         currBowler->runs += 1;
                         prevBatsman->runs += 1;
@@ -319,6 +401,7 @@ public:
 
             pthread_cond_signal(&BALL);
             pthread_cond_wait(&READY, &GLOB);
+            updateGantt("UMPIRE");
         }
         if (battingTeam->balls < 120) {
             pthread_mutex_lock(&BATTER);
@@ -339,6 +422,7 @@ public:
     }
 
     void secondInningInitial() {
+        commentries.push_back("FIRST INNING END");
         TARGET = battingTeam->score;
         inning++;
         field ^= 1;
@@ -437,7 +521,10 @@ public:
 
         printTeamStats(teams[1], teams[0], "TEAM: " + teams[1].name);
 
-        while (commentries.size() > 10) commentries.erase(commentries.begin());
+        while (commentries.size() > 10) {
+            allComm.push_back(*commentries.begin());
+            commentries.erase(commentries.begin());
+        }
 
         cout << "| COMMENTARY:\n";
         cout << "|-----------------------------------------------------------------------------------------------------------|\n";
@@ -493,6 +580,11 @@ bool inningRun() {
     return battingTeam->balls < 120 && battingTeam->wickets < 10 && battingTeam->score <= TARGET;
 }
 
+void updateGantt(string name) {
+    int now = std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
+    gantt.push_back({now, name});
+}
+
 void *batsmanApi(void *arg) {
     batsman *me = (batsman *) arg;
 
@@ -503,17 +595,35 @@ void *batsmanApi(void *arg) {
     }
     me->outType = "NOT OUT";
     while (inningRun() && me->notout) {
-        pthread_mutex_lock(&creases[me->crease]);
-        pthread_mutex_lock(&creases[me->crease ^ 1]);
-        pthread_mutex_unlock(&creases[me->crease]);
+        dld.addEdge(me->name, 0);
+
+        pthread_mutex_lock(&creases[0]);
+
+        dld.remEdge(me->name, 0);
+        dld.updateAccess(0, me->name);
+
+        dld.addEdge(me->name, 1);
+
+        pthread_mutex_lock(&creases[1]);
+        dld.remEdge(me->name, 1);
+        dld.updateAccess(1, me->name);
+
+        pthread_mutex_unlock(&creases[0]);
+
+
         me->crease ^= 1;
         while (me->notout && inningRun()) {
             pthread_mutex_lock(&me->act);
             pthread_mutex_lock(&BATTER);
 
+            pthread_mutex_lock(&MUT2);
+            pthread_mutex_unlock(&MUT2);
+
+
             pthread_cond_signal(&READYBAT);
             liveBatsman = me;
             pthread_cond_wait(&me->ACT, &BATTER);
+            updateGantt(me->name);
 
             if (battingTeam->score > TARGET) {
                 pthread_mutex_unlock(&BATTER);
@@ -546,7 +656,7 @@ void *batsmanApi(void *arg) {
             pthread_mutex_unlock(&BATTER);
             pthread_mutex_unlock(&me->act);
         }
-        pthread_mutex_unlock(&creases[me->crease]);
+        pthread_mutex_unlock(&creases[1]);
         me->crease ^= 1;
     }
     sem_post(&onfield);
@@ -572,6 +682,7 @@ void *bowlersApi(void *arg) {
 
             pthread_cond_signal(&READY);
             pthread_cond_wait(&BALL, &BOWLER);
+            updateGantt(me->name);
             pthread_mutex_lock(&GLOB);
             pthread_mutex_unlock(&GLOB);
 
@@ -599,16 +710,173 @@ void *fieldersApi(void *arg) {
     while (inningRun()) {
         pthread_cond_wait(&FIELD, &me->act);
         usleep(RUNOUT_WAIT);
-        if (rand() % 10 == 0 && (liveBowler->name != me->name && pthread_mutex_trylock(&creases[currCrease]) == 0)) {
+        if (inningRun() && rand() % 7 == 0 && (liveBowler->name != me->name && pthread_mutex_trylock(&creases[currCrease]) == 0)) {
             out = true;
+
+            updateGantt("FIELD " + me->name);
+            dld.updateAccess(1, "FIELDER");
+
+            pthread_mutex_lock(&MUT);
+            pthread_cond_wait(&UMPIRED, &MUT);
+            pthread_mutex_unlock(&MUT);
+
             pthread_mutex_unlock(&creases[currCrease]);
         }
     }
     pthread_mutex_unlock(&me->act);
     return nullptr;
 }
+void showGanttChartToFile(vector<pair<long long, string>> timestamps,
+                         long long start,
+                         const string &filename) {
+    if (timestamps.empty()) return;
 
+    // Sort timestamps
+    sort(timestamps.begin(), timestamps.end());
+
+    ofstream out(filename);
+    if (!out.is_open()) {
+        cerr << "Error opening file!\n";
+        return;
+    }
+
+    const int WIDTH = 14;     // width of each block
+    const int NAME_LEN = 10;  // max process name length
+
+    int n = timestamps.size();
+
+    out << "Gantt Chart\n";
+    out << string(60, '=') << "\n\n";
+
+    // -------- Top border --------
+    out << " ";
+    for (int i = 0; i < n; i++) {
+        out << string(WIDTH, '-') << " ";
+    }
+    out << "\n|";
+
+    // -------- Process names --------
+    for (int i = 0; i < n; i++) {
+        string p = timestamps[i].second;
+
+        if ((int)p.size() > NAME_LEN)
+            p = p.substr(0, NAME_LEN);
+
+        int pad = WIDTH - (int)p.size();
+        int left = max(0, pad / 2);
+        int right = max(0, pad - left);
+
+        out << string(left, ' ') << p << string(right, ' ') << "|";
+    }
+
+    out << "\n ";
+
+    // -------- Bottom border --------
+    for (int i = 0; i < n; i++) {
+        out << string(WIDTH, '-') << " ";
+    }
+    out << "\n";
+
+    // -------- Time markers (aligned) --------
+    vector<long long> times;
+    times.push_back(0);
+    for (auto &t : timestamps)
+        times.push_back(t.first - start);
+
+    // First time
+    out << setw(WIDTH / 2) << times[0];
+
+    for (int i = 1; i <= n; i++) {
+        out << setw(WIDTH) << times[i];
+    }
+
+    out << "\n\n";
+
+    // -------- Details Table --------
+    out << "Details:\n";
+    out << left << setw(12) << "Process"
+        << setw(12) << "Start"
+        << setw(12) << "End"
+        << setw(12) << "Dur" << "\n";
+
+    out << string(50, '-') << "\n";
+
+    long long prev = start;
+
+    for (int i = 0; i < n; i++) {
+        long long end = timestamps[i].first;
+
+        long long rel_start = prev - start;
+        long long rel_end = end - start;
+        long long dur = max(0LL, rel_end - rel_start);
+
+        string p = timestamps[i].second;
+        if ((int)p.size() > NAME_LEN)
+            p = p.substr(0, NAME_LEN);
+
+        out << left << setw(12) << p
+            << setw(12) << rel_start
+            << setw(12) << rel_end
+            << setw(12) << dur << "\n";
+
+        prev = end;
+    }
+
+    out.close();
+}
+
+
+void showCommentriesToFile(vector<string> &comments, const string &filename) {
+    ofstream out(filename);
+    if (!out.is_open()) {
+        cerr << "Error opening file!\n";
+        return;
+    }
+
+    out << "Ball-by-Ball Commentary\n";
+    out << string(60, '=') << "\n\n";
+
+    int over = 0, ball = 0;
+    int inning = 1;
+
+    for (int i = 0; i < (int)comments.size(); i++) {
+        string c = comments[i];
+
+        // -------- FIRST INNING END --------
+        if (c == "FIRST INNING END") {
+            out << "\n";
+            out << string(20, '=') << " END OF 1ST INNINGS " << string(20, '=') << "\n\n";
+
+            inning = 2;
+            over = 0;
+            ball = 0;
+            continue;
+        }
+
+        // -------- DEADLOCK DETECTED (no ball increment) --------
+        if (c == "DEADLOCK DETECTED") {
+            out << "     " << "[DEADLOCK DETECTED]" << "\n";
+            continue;
+        }
+
+        // -------- Normal delivery --------
+        ball++;
+
+        if (ball > 6) {
+            over++;
+            ball = 1;
+        }
+
+        // Print Over.Ball
+        out << setw(2) << over << "." << ball << "  ";
+        out << c << "\n";
+    }
+
+    out.close();
+}
 int main() {
+    int now = std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
+    initial = now;
     // cout << "WAIT AFTER BALL - " << endl;
     // cin >> BALL_WAIT;
     // cout << "FIELDER WAIT BALL - " << endl;
@@ -627,7 +895,7 @@ int main() {
     //     usleep(1000000);
     // }
     for (int i = 0; i < 1; i++) {
-        srand(time(NULL));
+        srand(initial);
         sem_init(&onfield, 0, 2);
         game engine;
         engine.firstInningInitial();
@@ -637,4 +905,14 @@ int main() {
         engine.result();
         usleep(10000);
     }
+
+    for (string &comm : commentries) allComm.push_back(comm);
+    showGanttChartToFile(gantt, initial, "gantt.txt");
+    showCommentriesToFile(allComm, "commentries.txt");
 }
+
+
+//wide
+//scheduling
+//match intensity
+//deadlock
