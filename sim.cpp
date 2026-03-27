@@ -651,6 +651,7 @@ void *batsmanApi(void *arg) {
             pthread_mutex_unlock(&GLOB);
 
             me->lastBall = rand() % 20;
+
             if (!inningRun()) pthread_cond_signal(&READYBAT);
 
             pthread_mutex_unlock(&BATTER);
@@ -692,7 +693,10 @@ void *bowlersApi(void *arg) {
                 pthread_cond_signal(&READY);
                 return nullptr;
             }
-
+            while (rand() % 20 == 0) {
+                commentries.push_back(me->name + " to " + liveBatsman->name + ", WIDE!");
+                battingTeam->score++;
+            }
             battingTeam->balls++;
             pthread_mutex_unlock(&BOWLER);
         }
@@ -825,7 +829,6 @@ void showGanttChartToFile(vector<pair<long long, string>> timestamps,
     out.close();
 }
 
-
 void showCommentriesToFile(vector<string> &comments, const string &filename) {
     ofstream out(filename);
     if (!out.is_open()) {
@@ -837,7 +840,6 @@ void showCommentriesToFile(vector<string> &comments, const string &filename) {
     out << string(60, '=') << "\n\n";
 
     int over = 0, ball = 0;
-    int inning = 1;
 
     for (int i = 0; i < (int)comments.size(); i++) {
         string c = comments[i];
@@ -847,15 +849,22 @@ void showCommentriesToFile(vector<string> &comments, const string &filename) {
             out << "\n";
             out << string(20, '=') << " END OF 1ST INNINGS " << string(20, '=') << "\n\n";
 
-            inning = 2;
             over = 0;
             ball = 0;
             continue;
         }
 
-        // -------- DEADLOCK DETECTED (no ball increment) --------
+        // -------- DEADLOCK DETECTED --------
         if (c == "DEADLOCK DETECTED") {
-            out << "     " << "[DEADLOCK DETECTED]" << "\n";
+            out << "      " << "[DEADLOCK DETECTED -> REMOVED -> RUNOUT -> CONTINUED]" << "\n";
+            continue;
+        }
+
+        // -------- WIDE (does NOT count as ball) --------
+        if (c.find("WIDE") != string::npos) {
+            // Print at same ball number (no increment)
+            out << setw(2) << over << "." << ball << "  ";
+            out << c << " (extra)\n";
             continue;
         }
 
@@ -867,7 +876,6 @@ void showCommentriesToFile(vector<string> &comments, const string &filename) {
             ball = 1;
         }
 
-        // Print Over.Ball
         out << setw(2) << over << "." << ball << "  ";
         out << c << "\n";
     }
