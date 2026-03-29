@@ -23,7 +23,7 @@ void updateGantt(string name);
 
 vector<pair<long long, string>> gantt;
 int initial;
-int RUNOUT_WAIT = 70;
+int RUNOUT_WAIT = 80;
 int BALL_WAIT = 100000;
 
 pthread_mutex_t GLOB = PTHREAD_MUTEX_INITIALIZER;
@@ -34,7 +34,6 @@ pthread_mutex_t MUT = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t MUT2 = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t DLD = PTHREAD_MUTEX_INITIALIZER;
 
-
 vector<pthread_mutex_t> creases(2, PTHREAD_MUTEX_INITIALIZER);
 bowler *liveBowler;
 batsman *liveBatsman;
@@ -44,12 +43,16 @@ sem_t onfield;
 pthread_cond_t READY = PTHREAD_COND_INITIALIZER;
 pthread_cond_t BALL = PTHREAD_COND_INITIALIZER;
 pthread_mutex_t pitch = PTHREAD_MUTEX_INITIALIZER;
-pthread_cond_t FIELD = PTHREAD_COND_INITIALIZER;
+pthread_cond_t BALL_IN_AIR = PTHREAD_COND_INITIALIZER;
 pthread_cond_t READYOUT = PTHREAD_COND_INITIALIZER;
 pthread_cond_t READYBAT = PTHREAD_COND_INITIALIZER;
 pthread_cond_t UMPIRED = PTHREAD_COND_INITIALIZER;
 bool RUN = false;
+bool sjf = true;
+bool MATCH_INTENSITY = false;
 
+string intense_bowler1 = "Jasprit Bumrah";
+string intense_bowler2 = "M. Starc";
 
 vector<string> commentries, allComm;
 int currCrease = 0;
@@ -70,8 +73,9 @@ public:
     int fours;
     int six;
     int lastBall;
+    vector<int> prob;
 
-    void batsmans_init(string myName) {
+    void batsmans_init(string myName,vector<int> myProb) {
         out = PTHREAD_MUTEX_INITIALIZER;
         act = PTHREAD_MUTEX_INITIALIZER;
         run = PTHREAD_MUTEX_INITIALIZER;
@@ -88,6 +92,8 @@ public:
         notout = true;
         myCrease = 0;
         outType = "YET TO BAT";
+        prob.resize(7);
+        for(int i=0;i<7;i++) prob[i] = myProb[i];
     }
 };
 
@@ -146,6 +152,11 @@ public:
 
 deadlockDetector dld;
 
+
+class pitchBuffer {
+    pthread_mutex_t UPD;
+};
+
 class bowler {
 public:
     pthread_mutex_t act;
@@ -188,6 +199,7 @@ public:
     int score;
     int balls;
     int wickets;
+    int extras;
     string name;
 
     team() {
@@ -199,6 +211,17 @@ public:
         fielders.resize(11);
     }
 };
+
+
+int true_random()
+{
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_int_distribution<> dis(0, 149);
+    return dis(gen);
+}
+
+
 
 class game {
 public:
@@ -212,51 +235,90 @@ public:
         inning = 0;
         TARGET = 100000;
     }
+    vector<pair<string,vector<int>>> sjf_order(vector<pair<string,vector<int>>> names, vector<int> expec_ball) {
+        vector<pair<string,vector<int>>> order(11);
+        vector<pair<int,int>> temp(11);
+        for(int i=0;i<11;i++) {
+            temp[i] = {expec_ball[i], i};
+        }
+        sort(temp.begin(), temp.end());
+        for(int i=0;i<11;i++) {
+            order[i] = names[temp[i].second];
+        }
+        return order;
+    }
 
     void firstInningInitial() {
         teams[0].name = "India";
         teams[1].name = "Australia";
         battingTeam = &teams[field];
         bowlingTeam = &teams[field ^ 1];
-        vector<string> BNames = {
-            "Usman Khwaja",
-            "Aeron Finch",
-            "Alex Carry",
-            "Glen Maxwell",
-            "Steve Smith",
-            "David Warner",
-            "J. Richardson",
-            "M. Stoinis",
-            "M. Starc",
-            "A. Zampa",
-            "N. Lyon"
-        };
-        vector<string> ANames = {
-            "Rohit Sharma",
-            "Shikhar Dhawan",
-            "Virat Kohli",
-            "Yuvraj Singh",
-            "Suresh Raina",
-            "M.S. Dhoni",
-            "R. Jadeja",
-            "H. Pandya",
-            "M. Shami",
-            "Jasprit Bumrah",
-            "B. Kumar"
-        };
-        for (int i = 0; i < 11; i++) {
-            teams[0].batsmans[i].batsmans_init(ANames[i]);
-            teams[0].bowlers[i].bowler_init(ANames[i]);
-            teams[0].fielders[i].fielder_init(ANames[i]);
 
-            teams[1].batsmans[i].batsmans_init(BNames[i]);
-            teams[1].bowlers[i].bowler_init(BNames[i]);
-            teams[1].fielders[i].fielder_init(BNames[i]);
+
+        vector<int> probs[3] = {
+            {25, 40, 8, 2, 20, 15, 40},
+            {12, 86, 15, 10, 13, 4, 10},
+            {12, 55, 10, 5, 36, 24, 8},
+        };
+        for(int i=0;i<3;i++)
+        {
+
+            for(int j=1;j<7;j++)
+            {
+                probs[i][j] += probs[i][j-1];
+            }
+
         }
+
+        vector<pair<string,vector<int>>> BNames = {
+            {"Usman Khwaja", probs[2]},
+            {"Aeron Finch", probs[2]},
+            {"Alex Carry", probs[2]},
+            {"Glen Maxwell", probs[2]},
+            {"Steve Smith", probs[1]},
+            {"David Warner", probs[1]},
+            {"J. Richardson", probs[1]},
+            {"M. Starc", probs[0]},
+            {"M. Stoinis", probs[1]},
+            {"A. Zampa", probs[0]},
+            {"N. Lyon", probs[0]}
+        };
+        vector<pair<string,vector<int>>> ANames = {
+            {"Rohit Sharma", probs[2]},
+            {"Shubman Gill", probs[2]},
+            {"Virat Kohli", probs[2]},
+            {"Shreyas Iyer", probs[2]},
+            {"Suryakumar Yadav", probs[1]},
+            {"Hardik Pandya", probs[1]},
+            {"Ravindra Jadeja", probs[1]},
+            {"Bhuvneshwar Kumar", probs[1]},
+            {"Yuzvendra Chahal", probs[0]},
+            {"Mohammed Shami", probs[0]},
+            {"Jasprit Bumrah", probs[0]}
+        };
+        vector<int> expec_ballA={19,20,30,15,12,18,8,8,5,3,2};
+        vector<int> expec_ballB={18,23,12,13,27,28,4,10,3,2,2};
+
+        vector<pair<string,vector<int>>> orderA = sjf_order(ANames, expec_ballA);
+        vector<pair<string,vector<int>>> orderB = sjf_order(BNames, expec_ballB);
+
+        for (int i = 0; i < 11; i++) {
+            if(sjf) teams[0].batsmans[i].batsmans_init(orderA[i].first,orderA[i].second);
+            else teams[0].batsmans[i].batsmans_init(ANames[i].first,ANames[i].second);
+            teams[0].bowlers[i].bowler_init(ANames[i].first);
+            teams[0].fielders[i].fielder_init(ANames[i].first);
+
+            if(sjf) teams[1].batsmans[i].batsmans_init(orderB[i].first,orderB[i].second);
+            else teams[1].batsmans[i].batsmans_init(BNames[i].first,BNames[i].second);
+            teams[1].bowlers[i].bowler_init(BNames[i].first);
+            teams[1].fielders[i].fielder_init(BNames[i].first);
+        }
+
         for (int i = 0; i < 11; i++) {
             pthread_create(&teams[field].batsmans[i].mainThread, NULL, batsmanApi, &teams[field].batsmans[i]);
             pthread_create(&teams[field ^ 1].bowlers[i].mainThread, NULL, bowlersApi, &teams[field ^ 1].bowlers[i]);
             pthread_create(&teams[field ^ 1].fielders[i].mainThread, NULL, fieldersApi, &teams[field ^ 1].fielders[i]);
+            usleep(1000);
         }
     }
 
@@ -289,8 +351,8 @@ public:
             out = false;
             currCrease = 1;
             int runs = liveBatsman->lastBall;
-            if (runs > 7) runs = 1;
-            if (runs == 5) runs = 4;
+            if(runs==6) runs = 7;
+            if (runs == 5) runs = 6;
             if (runs == 7) {
                 currBowler->wickets += 1;
                 liveBatsman->outType = Bowler;
@@ -327,7 +389,6 @@ public:
 
                     if (battingTeam->score < TARGET) {
                         if (runs % 2 == 0) {
-                            cout << "ONE" << endl;
                             pthread_mutex_lock(&BATTER);
                             pthread_mutex_unlock(&BATTER);
 
@@ -340,7 +401,7 @@ public:
                         pthread_mutex_unlock(&BATTER);
 
                         pthread_cond_signal(&liveBatsman->ACT);
-                        pthread_cond_broadcast(&FIELD);
+                        pthread_cond_broadcast(&BALL_IN_AIR);
 
                         struct timespec ts;
                         struct timeval now;
@@ -353,8 +414,10 @@ public:
                         clock_gettime(CLOCK_REALTIME, &ts);
                         ts.tv_sec += 1;
                         pthread_cond_timedwait(&READYBAT, &GLOB, &ts);
+
                         updateGantt("UMPIRE");
                         dld.detectAndSlaughter();
+
                     }
 
                     if (out) {
@@ -390,7 +453,7 @@ public:
             pthread_mutex_lock(&teams[field ^ 1].fielders[i].act);
             pthread_mutex_unlock(&teams[field ^ 1].fielders[i].act);
         }
-        pthread_cond_broadcast(&FIELD);
+        pthread_cond_broadcast(&BALL_IN_AIR);
         for (int i = 0; i < 11; i++) {
             pthread_mutex_lock(&teams[field ^ 1].fielders[i].act);
             pthread_mutex_unlock(&teams[field ^ 1].fielders[i].act);
@@ -422,6 +485,7 @@ public:
     }
 
     void secondInningInitial() {
+        MATCH_INTENSITY = false;
         commentries.push_back("FIRST INNING END");
         TARGET = battingTeam->score;
         inning++;
@@ -432,6 +496,7 @@ public:
             pthread_create(&teams[field].batsmans[i].mainThread, NULL, batsmanApi, &teams[field].batsmans[i]);
             pthread_create(&teams[field ^ 1].bowlers[i].mainThread, NULL, bowlersApi, &teams[field ^ 1].bowlers[i]);
             pthread_create(&teams[field ^ 1].fielders[i].mainThread, NULL, fieldersApi, &teams[field ^ 1].fielders[i]);
+            usleep(1000);
         }
     }
 
@@ -487,8 +552,8 @@ public:
                  << setw(10) << fixed << setprecision(2) << econ
                  << " |\n";
         }
-
         cout << "|================================================================================================================|\n";
+        cout << "| EXTRAS(WIDE) = " << bat.extras << "\n";
     }
 
     void scoreBoard() {
@@ -520,6 +585,8 @@ public:
         printTeamStats(teams[0], teams[1], "TEAM: " + teams[0].name);
 
         printTeamStats(teams[1], teams[0], "TEAM: " + teams[1].name);
+
+        cout << "|===========================================================================================================|\n";
 
         while (commentries.size() > 10) {
             allComm.push_back(*commentries.begin());
@@ -589,6 +656,7 @@ void *batsmanApi(void *arg) {
     batsman *me = (batsman *) arg;
 
     sem_wait(&onfield);
+    // thread_local std::mt19937 rng(std::random_device{}());
     if (!inningRun()) {
         sem_post(&onfield);
         return nullptr;
@@ -618,7 +686,6 @@ void *batsmanApi(void *arg) {
 
             pthread_mutex_lock(&MUT2);
             pthread_mutex_unlock(&MUT2);
-
 
             pthread_cond_signal(&READYBAT);
             liveBatsman = me;
@@ -650,14 +717,19 @@ void *batsmanApi(void *arg) {
             pthread_mutex_lock(&GLOB);
             pthread_mutex_unlock(&GLOB);
 
-            me->lastBall = rand() % 20;
-
+            me->lastBall = true_random();
+            for(int i=0;i<7;i++) {
+                if (me->lastBall < me->prob[i]) {
+                    me->lastBall = i;
+                    break;
+                }
+            }
             if (!inningRun()) pthread_cond_signal(&READYBAT);
 
             pthread_mutex_unlock(&BATTER);
             pthread_mutex_unlock(&me->act);
         }
-        pthread_mutex_unlock(&creases[1]);
+        pthread_mutex_unlock(&creases[me->crease]);
         me->crease ^= 1;
     }
     sem_post(&onfield);
@@ -672,10 +744,15 @@ void *bowlersApi(void *arg) {
         pthread_mutex_lock(&pitch);
         pthread_mutex_unlock(&NEXTBOWLER);
 
+        if (MATCH_INTENSITY && me->name != intense_bowler1 && me->name != intense_bowler2) {
+            pthread_mutex_unlock(&pitch);
+            break;
+        }
         if (!inningRun()) {
             pthread_mutex_unlock(&pitch);
             break;
         }
+
         liveBowler = me;
         balls = 6;
         for (int i = 0; i < balls && inningRun(); i++) {
@@ -687,16 +764,23 @@ void *bowlersApi(void *arg) {
             pthread_mutex_lock(&GLOB);
             pthread_mutex_unlock(&GLOB);
 
+            if (battingTeam->balls > 110) MATCH_INTENSITY = true;
+
+
             if (!inningRun()) {
                 pthread_mutex_unlock(&pitch);
                 pthread_mutex_unlock(&BOWLER);
                 pthread_cond_signal(&READY);
                 return nullptr;
             }
-            while (rand() % 20 == 0) {
+
+            while (true_random() % 20 == 0) {
                 commentries.push_back(me->name + " to " + liveBatsman->name + ", WIDE!");
                 battingTeam->score++;
+                liveBowler->runs++;
+                battingTeam->extras++;
             }
+
             battingTeam->balls++;
             pthread_mutex_unlock(&BOWLER);
         }
@@ -712,17 +796,17 @@ void *fieldersApi(void *arg) {
     fielder *me = (fielder *) arg;
     pthread_mutex_lock(&me->act);
     while (inningRun()) {
-        pthread_cond_wait(&FIELD, &me->act);
+        pthread_cond_wait(&BALL_IN_AIR, &me->act);
         usleep(RUNOUT_WAIT);
-        if (inningRun() && rand() % 7 == 0 && (liveBowler->name != me->name && pthread_mutex_trylock(&creases[currCrease]) == 0)) {
+        if (inningRun() && rand() % 10 == 0 && (liveBowler->name != me->name && pthread_mutex_trylock(&creases[currCrease]) == 0)) {
             out = true;
-
             updateGantt("FIELD " + me->name);
             dld.updateAccess(1, "FIELDER");
 
             pthread_mutex_lock(&MUT);
             pthread_cond_wait(&UMPIRED, &MUT);
             pthread_mutex_unlock(&MUT);
+
 
             pthread_mutex_unlock(&creases[currCrease]);
         }
@@ -882,6 +966,7 @@ void showCommentriesToFile(vector<string> &comments, const string &filename) {
 
     out.close();
 }
+
 int main() {
     int now = std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
     initial = now;
