@@ -50,7 +50,7 @@ pthread_cond_t READYOUT = PTHREAD_COND_INITIALIZER;
 pthread_cond_t READYBAT = PTHREAD_COND_INITIALIZER;
 pthread_cond_t UMPIRED = PTHREAD_COND_INITIALIZER;
 bool RUN = false;
-bool sjf = true;
+bool sjf = false;
 bool MATCH_INTENSITY = false;
 
 string intense_bowler1 = "Jasprit Bumrah";
