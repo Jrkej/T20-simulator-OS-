@@ -642,7 +642,6 @@ public:
         cout << "|                        MATCH RESULT                          |\n";
         cout << "|==============================================================|\n";
 
-        // Final Scores
         cout << "| "
              << t1.name << " : "
              << t1.score << "/" << t1.wickets
@@ -655,7 +654,6 @@ public:
 
         cout << "|--------------------------------------------------------------|\n";
 
-        // Decide result
         if (t1.score > t2.score) {
             cout << "| RESULT: " << t1.name
                  << " won by " << (t1.score - t2.score)
@@ -858,7 +856,6 @@ void showGanttChartToFile(vector<pair<long long, string>> timestamps,
                          const string &filename) {
     if (timestamps.empty()) return;
 
-    // Sort timestamps
     sort(timestamps.begin(), timestamps.end());
 
     ofstream out(filename);
@@ -867,22 +864,20 @@ void showGanttChartToFile(vector<pair<long long, string>> timestamps,
         return;
     }
 
-    const int WIDTH = 14;     // width of each block
-    const int NAME_LEN = 10;  // max process name length
+    const int WIDTH = 14;
+    const int NAME_LEN = 10;
 
     int n = timestamps.size();
 
     out << "Gantt Chart\n";
     out << string(60, '=') << "\n\n";
 
-    // -------- Top border --------
     out << " ";
     for (int i = 0; i < n; i++) {
         out << string(WIDTH, '-') << " ";
     }
     out << "\n|";
 
-    // -------- Process names --------
     for (int i = 0; i < n; i++) {
         string p = timestamps[i].second;
 
@@ -898,19 +893,16 @@ void showGanttChartToFile(vector<pair<long long, string>> timestamps,
 
     out << "\n ";
 
-    // -------- Bottom border --------
     for (int i = 0; i < n; i++) {
         out << string(WIDTH, '-') << " ";
     }
     out << "\n";
 
-    // -------- Time markers (aligned) --------
     vector<long long> times;
     times.push_back(0);
     for (auto &t : timestamps)
         times.push_back(t.first - start);
 
-    // First time
     out << setw(WIDTH / 2) << times[0];
 
     for (int i = 1; i <= n; i++) {
@@ -919,7 +911,6 @@ void showGanttChartToFile(vector<pair<long long, string>> timestamps,
 
     out << "\n\n";
 
-    // -------- Details Table --------
     out << "Details:\n";
     out << left << setw(12) << "Process"
         << setw(12) << "Start"
@@ -967,7 +958,6 @@ void showCommentriesToFile(vector<string> &comments, const string &filename) {
     for (int i = 0; i < (int)comments.size(); i++) {
         string c = comments[i];
 
-        // -------- FIRST INNING END --------
         if (c == "FIRST INNING END") {
             out << "\n";
             out << string(20, '=') << " END OF 1ST INNINGS " << string(20, '=') << "\n\n";
@@ -977,13 +967,11 @@ void showCommentriesToFile(vector<string> &comments, const string &filename) {
             continue;
         }
 
-        // -------- DEADLOCK DETECTED --------
         if (c == "DEADLOCK DETECTED") {
             out << "      " << "[DEADLOCK DETECTED -> REMOVED -> RUNOUT -> CONTINUED]" << "\n";
             continue;
         }
 
-        // -------- WIDE (does NOT count as ball) --------
         if (c.find("WIDE") != string::npos) {
             // Print at same ball number (no increment)
             out << setw(2) << over << "." << ball << "  ";
@@ -991,7 +979,6 @@ void showCommentriesToFile(vector<string> &comments, const string &filename) {
             continue;
         }
 
-        // -------- Normal delivery --------
         ball++;
 
         if (ball > 6) {
@@ -1039,8 +1026,10 @@ int main() {
     }
 
     for (string &comm : commentries) allComm.push_back(comm);
-    showGanttChartToFile(gantt, initial, "gantt.txt");
-    showCommentriesToFile(allComm, "commentries.txt");
+    string type = "_SJF";
+    if (!sjf) type = "_FCFS";
+    showGanttChartToFile(gantt, initial, "gantt" + type + ".txt");
+    showCommentriesToFile(allComm, "commentries" + type + ".txt");
 }
 
 
